@@ -1,0 +1,48 @@
+image: node:alpine
+
+cache:
+  paths:
+    - node_modules
+
+stages:
+  - test
+  - build
+  - deploy
+
+.deploy:
+  script: &kube_script
+    - apk update  && apk add --no-cache curl
+    - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+    - chmod +x ./kubectl && mv ./kubectl /usr/local/bin/kubectl
+    - mkdir -p $HOME/.kube
+    - echo -n $KUBE_CONFIG | base64 -d > $HOME/.kube/config
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run export
+  only:
+      - merge_requests
+
+build:
+  stage: build
+  image: docker:latest
+  script:  
+    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG-$CI_PIPELINE_ID -f docker/Dockerfile .
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG-$CI_PIPELINE_ID
+  only:
+    - master
+    - merge_requests
+
+deploy:demo:auto:
+  stage: deploy
+  environment:
+    name: demo
+    url: https://sugihara.telesoftas.net
+  before_script: *kube_script
+  script:
+    - kubectl set image deploy/sugihara-dev-telesoftas-net -n sugihara-telesoftas-net sugihara-dev-telesoftas-net=$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG-$CI_PIPELINE_ID
+  only:
+    - master
