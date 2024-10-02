@@ -47,7 +47,7 @@
 
 <div class="chapter-item container flow-root sm:flex">
   <div
-    class="image-container overflow-hidden fixed w-2/3 bottom-0 left-1/20 h-screen sm:w-full sm:left-0"
+    class="image-container ch5_tai overflow-hidden fixed w-2/3 bottom-0 left-1/20 h-screen sm:w-full sm:left-0"
   >
     <img
       src={policeSrc}
@@ -72,22 +72,23 @@
     <img src={familySrc} alt="" class="absolute bottom-1/10" />
   </div>
   <Card class="card dark float-right sm:float-none">
-    <h2 class="c-h2 mb-8">Taip</h2>
+    <h2 class="c-h2 mb-8">Yes</h2>
     <p>
-      Važiuokit, vaikai, - sako močiutė. Raminkis ir baik žliumbti, dukra, -
-      sako ji mamai, - aš savo jau nugyvenau, nedaug ir beliko. Vaikai turi kada
-      nors palikti savo senus tėvus ir pradėti gyvenimą iš naujo. Tai baik
-      žliumbti ir pradėk gyventi.
+      You go, kids, - says Grandma. - Calm down and stop whimpering, daughter, -
+      she says to Mom, - I’ve already lived my life, little is left. Children
+      must someday leave their old parents and start their own life. So stop
+      sobbing and start living.
     </p>
     <p class="mt-8" bind:this={triggerPoint}>
-      Nelabai ką atsimenu iš tos kelionės. Tik siaubą, kai traukiniui
-      stabtelėjus ant Italijos sienos, muitininkai mušė vyrą, švarke įsisiuvusį
-      šiek tiek banknotų. Tik moterį, kuri laukiant patikrinimo skubiai išsisegė
-      auskarus ir juos įbruko mažai dukrelei į paltuko kišenę. Ir pinigus
-      slėpusio vyro šeima ir auskarus per vėlai išsisegusios moters giminaičiai
-      – visi liko anąpus sienos, nė vieno nebeįleido į traukinį. Mano juoda
-      diržo sagtelė maniau pilve išdegins man skylę, o batai užsiliepsnos, tokia
-      buvo baimė, kad ir mums nepavyks.
+      Little I remember from that trip. Only the horror, when the train stopped
+      at the Italian border and the customs officers beat up a man who had some
+      banknotes sewn into his jacket. Only the woman who took out her earrings
+      while waiting for an inspection and put them into her little daughter’s
+      coat pocket. The family of the man hiding the money, the relatives of the
+      woman who took out her earrings too late - all of them were left behind
+      the border, no one was allowed back on the train. I thought my black belt
+      buckle would burn a hole in my stomach and the shoes would catch fire - I
+      was so afraid that we wouldn’t succeed either.
     </p>
   </Card>
 </div>

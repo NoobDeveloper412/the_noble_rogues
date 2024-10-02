@@ -1,0 +1,19 @@
+<script>
+  import { ChoicesTemplate, ChoicesScreen } from "components";
+  import { Chapter7NePage1 } from "pages/Chapter7";
+  import { chapterLinks, chapterTitles } from "utils";
+</script>
+
+<svelte:head>
+  <title>{chapterTitles.chapter7}</title>
+</svelte:head>
+
+<ChoicesTemplate class="bg-grayscale">
+  <Chapter7NePage1 />
+  <ChoicesScreen
+    header="Sugihara išduos vizas?"
+    class="relative h-120 p-10 sm:p-4 z-10"
+    choice1={{ href: `en${chapterLinks.chapter7}/taip`, text: "yes" }}
+    choice2={{ href: "", text: "no" }}
+/>
+</ChoicesTemplate>

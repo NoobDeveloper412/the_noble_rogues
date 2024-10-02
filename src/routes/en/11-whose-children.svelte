@@ -1,0 +1,50 @@
+<script>
+  import { ChapterTemplate, ChoicesScreen } from "components";
+  import { ChapterMenu } from "organisms";
+  import { menuLinks } from "utils";
+  import { fade } from "svelte/transition";
+  import {
+    Chapter11Page1,
+    Chapter11Page2,
+    Chapter11Page3,
+  } from "pages/Chapter11";
+  import { chapterLinks } from "utils";
+  import { children } from "svelte/internal";
+
+  let trigger1, trigger2, trigger3, trigger4, trigger5;
+</script>
+
+<svelte:head>
+  <title>Whose children</title>
+</svelte:head>
+
+<div class="absolute w-full bg-ch11" out:fade in:fade>
+  <ChapterMenu links={menuLinks} chapterHeader="Kilnieji sukčiai" />
+  <div class="sm:pt-120">
+    <Chapter11Page1 bind:activeTrigger={trigger1} />
+    <Chapter11Page2 bind:activeTrigger={trigger1} bind:nextTrigger={trigger2} />
+    <Chapter11Page3 bind:activeTrigger={trigger2} />
+  </div>
+  <ChoicesScreen
+    header="Will you hide the girls?"
+    class="relative h-120 p-10 sm:p-4 z-999"
+    choice1={{ href: `en${chapterLinks.chapter11}/taip`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter11}/ne`, text: "no" }}
+  />
+</div>
+
+<style global lang="postcss">
+  .house {
+    margin-left: 5%;
+  }
+  .z-999{
+    z-index: 999;
+  } 
+  @screen sm {
+    .house {
+      max-width: 150%;
+      margin-left: 25%;
+      margin-right: -25%;
+    }
+  }
+</style>

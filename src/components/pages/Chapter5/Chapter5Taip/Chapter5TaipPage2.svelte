@@ -17,29 +17,31 @@
 <div class="chapter-item container flow-root sm:flex">
   <Card class="card last dark float-right sm:float-none bg-primary">
     <p bind:this={triggerPoint1}>
-      Tikriausiai močiutės maldos saugojo mūsų šeimą, nes ne tik atvykom į
-      Genujos uostą, bet ir jūra atrodė visai nebaisi. Baisi buvo tik mamos
-      tyla. Mama visą kelionę neištarė nė žodžio.
+      Grandma’s prayers must have saved our family because not only did we
+      arrive at the port of Genoa, but the sea didn’t seem terrible at all. Only
+      Mom’s silence was terrible. Mom didn’t say a word the whole trip.
     </p>
     <p class="mt-8">
-      Tylėjo traukinyje, tylėjo Aronui džiūgaujant „žiūrėkit, Afrika, Sueco
-      kanalas“, tylėjo laive iki pat Kobės, ten iš laivo išlipo gal trečdalis
-      keleivių, tėtis aiškino, kad japonų Kobės žydų bendruomenėje saugu, tik
-      Kobė ne mums, mūsų laukia bevizis Šanchajus.
+      She was silent on the train, silent as Aaron happily announced - “look,
+      it’s Africa, it’s Suez Canal”, silent on the ship all the way to Kobe,
+      where maybe one third of the passengers got off the ship. Dad explained
+      that it’s safe in the Japanese Kobe Jewish community, only Kobe is not for
+      us, as we are heading to visa-free Shanghai.
     </p>
     <p class="mt-8">
-      Prisiklausiusi Arono kalbų maniau, kad Šanchajus yra Kinija, tad ten bus
-      drakonų, geltonų žmonių, vyrų ilgomis kasomis, o namų stogai bus raudoni
-      ir lenkti it kregždės sparnai, bet miestas atrodė toks pat, kaip kiti
-      miestai. Jokių ilgaplaukių vyrų ir, aišku, jokių <span
-        bind:this={triggerPoint2}>drakonų</span
-      >. Tik išlipus iš laivo, buvom perspėti negerti nevirinto vandens, net
-      dantis valytis tik virintu vandeniu, nusilenkti pamačius bet kokį japonų
-      kareivį, nevalgyti vaisių ir daržovių jei jie nevirti, apžiūrėjo plaukus
-      ar nėra utėlių, net dantis patikrino, visi gavom po skaudų skiepą ir tik
-      tada stojom į eilę prie autobusų, vešiančių į tą naują gyvenimą be
-      močiutės. Mama tebetylėjo.
+      After listening to Aaron’s tales, I thought Shanghai was China, so there
+      would be dragons, yellow people, men with long braided hair, and the roofs
+      of the houses would be red and curved like the wings of a swallow, but the
+      city looked the same as other cities. No long-haired men and certainly no <span
+        bind:this={triggerPoint2}>dragons</span
+      >. When we stepped out of the ship, we were warned not to drink unboiled
+      water, to brush our teeth only with boiled water, to bow down in front of
+      any Japanese soldier, not to eat fruits and vegetables if they were
+      uncooked. They checked our hair for lice, they checked even our teeth, we
+      all got a painful vaccine and only then could we line up at the buses
+      taking us to the new life without Grandma. Mom was still silent.
     </p>
+
     <p class="mt-8 bg-primary-300 w-3 h-3 border-none rounded-lg" />
   </Card>
 </div>

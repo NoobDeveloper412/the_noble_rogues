@@ -78,24 +78,26 @@
     <img
       src={jukikoSrc}
       alt=""
-      class="absolute bottom-0 right-1/20 sm:w-3/4 sm:right-0"
+      class="absolute bottom-0 right-1/20 sm:w-3/4 sm:right-0 w-120"
     />
   </div>
   <Card class="card">
-    <h2 class="c-h2 mb-8">Jukiko</h2>
+    <h2 class="c-h2 mb-8">Yukiko</h2>
     <p bind:this={triggerPoint}>
-      Lauke lyja. Mes, katinai, nemėgstam lietaus: žvirbliai kažkur išsislapstę,
-      visur balos, tad grįžus iš lauko tenka ilgai laižytis letenėles. Pauostau
-      radiatorių, - juodas šilumos reguliatoriaus diskas su raidėmis “Šalta -
-      Šilta” atsuktas šiltojon pusėn, tad užšoku ant palangės. Šalia Jukiko
-      perrašinėja dokumentus. Kiekvieną
+      It’s raining outside. We cats don’t like rain: sparrows are hiding, there
+      are puddles everywhere, so when you come back inside you have to lick your
+      paws for a long time. I sniff the radiator - the black disc of the heat
+      regulator with the words “Cold - Warm” is turned to the warm side, so I
+      jump on the windowsill. Next to me is Yukiko, she’s rewriting some
+      documents. Each has to be rewritten three
+
       <Explanation variant="pink" class="border-pink border-b-4">
         <div slot="content" class="w-full">
-          <p class="p-6">„Konsulate nėra dokumentų dauginimo aparato“</p>
+          <p class="p-6">"There is no copying machine in the Consulate"</p>
         </div>
-        <span slot="text">perrašo</span>
-      </Explanation> po tris kartus, tad girdžiu, kaip jos mintys nuklysta į praeitus
-      gyvenimus, kai dar gyveno Japonijoje.
+        <span slot="text">times</span>
+      </Explanation>, so I can hear her thoughts wander to her past when she was
+      still living in Japan.
     </p>
   </Card>
 </div>

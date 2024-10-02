@@ -1,10 +1,9 @@
 <script>
   export let activeTrigger, nextTrigger;
-  import { PulsingDot } from "molecules";
-  import { Container, Card } from "atoms";
-  import { RoomsImagesCarousel } from "organisms";
+  import { Card, Container } from "atoms";
   import houseInsideSrc from "images/chapter3/houseInside.png";
-
+  import { PulsingDot } from "molecules";
+  import { RoomsImagesCarousel } from "organisms";
   import { elementInViewport, handleTriggerClasses, rooms } from "utils";
 
   let triggerPoint, triggerClass, containerClass, alignmentClass;
@@ -44,7 +43,7 @@
   const closeCarousel = () => {
     carouselClass = "hidden";
     buildingClass = "sm:z-10 animate-fadeIn";
-    pulsingDot = "block";
+    pulsingDot = "hidden";
   };
 </script>
 
@@ -58,24 +57,25 @@
   >
     <Card class="mb-16 z-20">
       <p class="mb-6" bind:this={triggerPoint}>
-        Pirmas aukštas pilnas prislopintų garsų: Sugiharos darbo kabinete taukši
-        rašomoji mašinėlė, retkarčiais subirbia telefonas. Asistentų kambaryje
-        tyliai ginčijasi du lenkai, nugirstu miestų pavadinimus
-        “Stokholmas...Suomijos japonų konsulatas...Britanijos konsulato lenkų
-        sekcija” - žodžiu, nieko įdomaus katinui.
+        The first floor is full of muted sounds: the clickety clack of the
+        typewriter in Sugihara’s office, the occasional ring-ring-ring of the
+        phone. Two Poles are quietly arguing in the Assistants’ room, I can hear
+        the names of the cities: "Stockholm... Japanese Consulate in Finland...
+        Polish section of the British Consulate" - nothing that could interest a
+        cat.
       </p>
       <p class="mb-6">
-        Įdomesnis yra dešifravimo kambarys, ten landžioti uždrausta, bet
-        nutaikau sekundę, kai į tą kambarį apsidairęs įslenka Gudzė, šmurkšteliu
-        pro jo kojas ir palendu po ligi žemės nudrykusia užuolaida. Gudzė,
-        katiniškai minkštai dėliodamas kojas, artinasi prie stalo. Stalas
-        švelniai ūžia, visur raizgosi laidai.
+        The Decoding room is much more intriguing, it’s forbidden to go there,
+        but I wait for Gudze to sneak into that room, then dart through his legs
+        and hide under the curtain that falls to the ground. Gudze, walking
+        softly as a cat, approaches the table. The table is gently buzzing,
+        wires are tangled everywhere.
       </p>
       <p>
-        Vakarais iš šio kambario girdėti pypčiojimas, tad įtariau paukščius, bet
-        jokių paukščių čia nėra: tik radijo aparatai, telegrafo rankenėlės,
-        ausinės, daiktas, panašus į rašomąją mašinėlę, tik prikaišiotas laidų,
-        kištukų ir smirdintis kaistančiomis elektros lemputėmis.
+        At night I hear beeping noises coming out of this room, I used to
+        suspect the birds, but there are no birds around: only some radios,
+        telegraph handles, headphones, a thing that looks like a typewriter,
+        only full of wires, also some plugs and stinky hot light bulbs
       </p>
     </Card>
   </Container>
@@ -83,16 +83,17 @@
     class="w-8/12 fixed xl:left-1/3 left-2/5 sm:w-full xsRange:w-4/5 sm:left-auto bottom-0"
   >
     <div
-      class="maw-w-screen-xl w-full h-screen flex justify-center items-end opacity-0 {triggerClass} {alignmentClass}"
+      class="maw-w-screen-xl w-full h-screen block justify-center items-end opacity-0 {triggerClass} {alignmentClass}"
     >
       <img
-        class="house object-contain maw-w-screen-xl mb-40 sm:mb-32 sm:-mx-1-5 {buildingClass}"
+        class="house object-contain float-right maw-w-screen-xl mt-60 sm:mb-32 sm:-mx-1-5 {buildingClass}"
         on:click={openCarousel}
         alt="house"
         src={houseInsideSrc}
       />
-      <PulsingDot on:click={openCarousel}
-        class="absolute bottom-1/3 left-1/2 {pulsingDot} {alignmentClass}"
+      <PulsingDot
+        on:click={openCarousel}
+        class="absolute bottom-2/5 left-2/3 {pulsingDot} {alignmentClass}"
       />
       <RoomsImagesCarousel
         content={rooms}
@@ -110,14 +111,17 @@
   >
     <Card class="bg-primary">
       <p class="mb-6 text-primary-300">
-        Japonas Čiunė Sugihara lietuvių spaudai sakė, kad atvyko čia stiprinti
-        Lietuvos-Japonijos kultūrinių ryšių, be to, atstovauja “Osram” elektros
-        lempučių firmai, tačiau nematau čia nei parduodamų lempučių dėžių, nei
-        jokių ryšių: tik besiraizgančius laidus. Gudzė skubiai knisasi tarp
-        apvalių raidėmis išmargintų kortelių, kažką nuo jų nusirašo ir slepia
-        švarko kišenėje, o aš po dulkėta užuolaida nesulaikau čiaudulio. “PČI!”
+        Japanese Chiune Sugihara told the Lithuanian press that he came here to
+        strengthen Lithuanian-Japanese cultural ties, and also to represent
+        Osram light bulb firm, but I don't see any light bulb boxes for sale -
+        or any ties, for that matter: only tangled wires. Gudze is hurriedly
+        rummaging between round cards mottled with letters, writes something
+        down and hides it in a pocket of his jacket. Sitting under the dusty
+        curtain, I can’t suppress a sneeze. “ACHOO!"
       </p>
-      <p class="text-primary-300">Išgąsdintas Gudzė strykteli ore ir atsisuka.</p>
+      <p class="text-primary-300">
+        Frightened, Gudze jumps in the air and turns around.
+      </p>
     </Card>
   </Container>
 </div>

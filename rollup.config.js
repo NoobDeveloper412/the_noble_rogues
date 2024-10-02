@@ -10,6 +10,7 @@ import sveltePreprocess from "svelte-preprocess";
 import svelteSVG from "rollup-plugin-svelte-svg";
 import alias from "@rollup/plugin-alias";
 import image from "@rollup/plugin-image";
+import json from "@rollup/plugin-json";
 const path = require("path");
 
 const mode = process.env.NODE_ENV;
@@ -85,37 +86,39 @@ export default {
         dedupe: ["svelte"],
       }),
       commonjs(),
+      json(),
+
       image({
         exclude: "**/*.svg",
       }),
       legacy &&
-        babel({
-          extensions: [".js", ".mjs", ".html", ".svelte"],
-          babelHelpers: "runtime",
-          exclude: ["node_modules/@babel/**"],
-          presets: [
-            [
-              "@babel/preset-env",
-              {
-                targets: "> 0.25%, not dead",
-              },
-            ],
+      babel({
+        extensions: [".js", ".mjs", ".html", ".svelte"],
+        babelHelpers: "runtime",
+        exclude: ["node_modules/@babel/**"],
+        presets: [
+          [
+            "@babel/preset-env",
+            {
+              targets: "> 0.25%, not dead",
+            },
           ],
-          plugins: [
-            "@babel/plugin-syntax-dynamic-import",
-            [
-              "@babel/plugin-transform-runtime",
-              {
-                useESModules: true,
-              },
-            ],
+        ],
+        plugins: [
+          "@babel/plugin-syntax-dynamic-import",
+          [
+            "@babel/plugin-transform-runtime",
+            {
+              useESModules: true,
+            },
           ],
-        }),
-
+        ],
+      }),
+      json(),
       !dev &&
-        terser({
-          module: true,
-        }),
+      terser({
+        module: true,
+      }),
       svelteSVG({ dev }),
       aliases,
     ],

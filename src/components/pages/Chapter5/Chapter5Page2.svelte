@@ -33,28 +33,28 @@
       class="w-max h-max max-w-md bg-primary-300 relative sm:w-full sm:max-w-screen-sm sm:mb-80"
     >
       <p>
-        Negali pirkti kruizo tik į vieną pusę, tokios taisyklės. Taisyklės,
-        taisyklės, - nebėra jokio gyvenimo, vienos taisyklės. Mama verkia,
-        stengiasi slapta, bet mes matom nuolat paraudusias jos akis. Tėtis
-        kelias dienas sėdėjo užsidaręs dirbtuvėse: jis išlydė visus dar
-        neatimtus mamos ir močiutės auksinius papuošalus. Išlydė auskarus,
-        grandinėles ir nuliejo naujų dalykų: berniukų diržų sagtys, mano ir
-        mamos batų sagtelės yra auksinės, tik nudažytos juodai. Juodai dienai.
+        You can’t buy a cruise only one way, such are the rules. Rules, rules -
+        we have no life anymore, only rules. Mom cries, she tries to keep it
+        secret, but we see her reddened eyes. Dad locked inside his workshop for
+        a couple days: he melted all of Mom’s and Grandma’s gold jewellery that
+        had not yet been taken away. He melted earrings and chains and casted a
+        few new things. The buckles of the boys’ belts and my and Mom’s shoes
+        are golden, only painted black. For a rainy day.
       </p>
       <p class="mt-8" bind:this={triggerPoint}>
-        Kiekvienas žydas, kertantis Reicho sieną, gali su savim turėti tik
-        dešimt markių, vieną laikrodį ir vieną žiedą. Negali išsivežti jokių
-        santaupų, jokių papuošalų. Nieko. Bet tai dar nebaisu, sako tėtis, -
-        pinigai uždirbami. O kas baisu? - klausia mama ir vėl beveik iki kraujo
-        prikanda lūpą. Gavau tik penkis bilietus, - atsako jis taip tyliai, kad
-        beveik nesigirdi, o mama raudodama puola jį kumščiais.
+        Every Jew who crosses the border of the Reich can have only ten marks,
+        one watch, and one ring on them. We can’t carry any savings, no
+        jewellery. Nothing. But that’s not scary, says Dad. Money can be earned.
+        And what’s scary? - Mom asks and bites her lip almost to blood again. I
+        only got five tickets, he replies so quietly that you can hardly hear,
+        and Mom attacks him with her fists, crying.
       </p>
     </Card>
     <Card
       class="w-max h-max max-w-md bg-primary relative mt-20 sm:w-full sm:max-w-screen-sm"
     >
       <p class="text-primary-300">
-        Mūsų gi šeši. Tėtis, mama, Aronas, Tolikas, aš ir močiutė.
+        There are six of us. Dad, Mom, Aaron, Tolik, me and Grandma.
       </p>
     </Card>
   </div>

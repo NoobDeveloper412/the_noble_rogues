@@ -54,21 +54,23 @@
   </div>
   <Card class="card float-right sm:float-none">
     <p class="mb-6">
-      Man dvidešimt vieneri. Jam trisdešimt penkeri. Jis švelnus, ramus,
-      rūpestingas, su juo jaučiuosi saugi. Ir jis man žada pasaulį. Žada
-      parodyti man visą pasaulį! Ir aš sakau:
+      I'm 21. He is 35. He is gentle, calm, caring, I feel safe with him. And he
+      promises the world to me. Promises to show me the whole wide world! And I
+      say
     </p>
-    <h2 class="c-h2 mb-8">Taip</h2>
+    <h2 class="c-h2 mb-8">yes</h2>
     <p>
-      Po metų, 1936 rugsėjį, mums gimė sūnus Hirokis. Čiunės nėra šalia, jis
-      išvykęs Kamčiatkon aiškintis dėl Sovietų sąjungos ir Japonijos žvejybos
-      teritorijų, bet grįžęs iškart paima kūdikį į glėbį. Mes laimingi, o po
-      pusmečio ima vertis ir tas pažadėtas tolimas pasaulis: Čiunė gauna vertėjo
-      darbą Maskvoje, kartu su mumis vyks ir mano sesuo Setsuko. <span
-        bind:this={triggerPoint}>Mes</span
-      > jau susiruošę lagaminus ir telieka užrakinti namų duris, kai ateina žinia,
-      kad Sovietai neduoda Čiunei vizos. Čiunė kažką žino per daug apie sovietus,
-      sovietai Čiunės nebenori.
+      One year later, in September 1936, our son Hiroki was born. Chiune is
+      away, he left for Kamchatka to solve the fight over the fishing waters
+      between the Soviet Union and Japan, but when he returns he immediately
+      takes the baby into his arms. We are happy, and in half a year, the
+      promised wide world begins to open: Chiune gets a job as an interpreter in
+      Moscow, and my sister Setsuko is going with us. <span
+        bind:this={triggerPoint}
+        >We’ve
+      </span> already packed our suitcases and only have to lock the door when the
+      news arrives: the Soviets refuse Chiune his visa. Chiune knows too much about
+      the Soviets, the Soviets no longer want Chiune.
     </p>
   </Card>
 </div>

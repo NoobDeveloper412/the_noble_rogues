@@ -7,7 +7,7 @@
   class="flex flex-col justify-center items-center bg-primary shadow-primaryTop {$$props.class ||
     ''}"
 >
-  <div class="container max-w-xs text-center">
+  <div class="container max-w-md text-center">
     <p class="c-h3">
       {header}
     </p>

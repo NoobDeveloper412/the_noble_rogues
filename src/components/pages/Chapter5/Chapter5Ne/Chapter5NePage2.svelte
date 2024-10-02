@@ -36,14 +36,15 @@
   </div>
   <Card class="card float-right sm:float-none">
     <p bind:this={triggerPoint}>
-      Mums tereikia pasukti į kitą pusę, mums reikia į Lietuvą, visi dabar
-      vyksta į Lietuvą, ir bėgantys nuo nacių ir bėgantys nuo sovietų. Rytų
-      Lenkiją užėmę sovietai uždarinėja visas ješivas, tad studentai perkeliami
-      Lietuvon, vadinasi, ten visi gali gauti prieglobstį. Aronas jau seniai
-      nekalba apie savo Elizą. Elizos tėvas Aroną grūste išgrūdo pro duris: „kad
-      tavo žydiško snukio čia nebematyčiau, tu man dukters negadinsi, tu mano
-      šeimos nepražudysi, šūdinas žydo gabale“. Eliza ne žydė, tad jie niekada
-      nebegalės būti kartu.
+      We just need to go the other way, we need to go to Lithuania, everyone is
+      now going to Lithuania - either fleeing the Nazis or fleeing the Soviets.
+      The Soviets, who occupied eastern Poland, are closing all the local
+      yeshivas, so the students are being transferred to Lithuania, which means
+      that everyone can get asylum there. Aaron hasn’t talked about his Eliza in
+      a long time. Eliza’s father violently pushed Aaron through the door, “so
+      that I never see your Jewish face again, you will not corrupt my daughter,
+      you will not ruin my family, you shitty piece of Jew.” Eliza is not
+      Jewish, so they will never be together.
     </p>
   </Card>
 </div>

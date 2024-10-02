@@ -6,9 +6,11 @@ sapper.start({
 });
 
 const cursor = cursorDot({
-	diameter: 8,
+	diameter: 24,
 	easing: 4,
-	background: '#EBE8E0'
+	background: '#fff',
+	borderColor: '#fff',
+	scale: 1
 })
 
 cursor.over('a, button', 'div.hoverable', '.clickable', {

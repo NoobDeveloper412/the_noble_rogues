@@ -1,12 +1,10 @@
 <script>
-    import {Sidebar} from 'organisms'
+  import { Sidebar } from "organisms";
 </script>
 
 <Sidebar>
-    <a href="/">
-        Apie
-    </a>
-    <a href="/mediateka">
-        Mediateka
-    </a>
+  <a href="/about"> Apie </a>
+  <a href="/pamoka"> Pamoka </a>
+  <a href="https://www.facebook.com/kilnieji.lt" target="_blank"> FB </a>
+  <a href="https://www.instagram.com/kilnieji.lt/" target="_blank"> IG </a>
 </Sidebar>

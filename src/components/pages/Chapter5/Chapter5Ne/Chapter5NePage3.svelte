@@ -36,13 +36,13 @@
   </div>
   <Card class="card float-right sm:float-none">
     <p bind:this={triggerPoint}>
-      Aronas ne tik išblyškęs, jis visiškai pasikeitė – dabar jis nusiteikęs tik
-      mokslams, dabar jis norėtų pasislėpti tarp raidžių, panirti į knygas ir
-      raštų ritinius ir niekada nebeišnerti, o Telšių ješivoje mokslai vyksta
-      dieną naktį be pertraukos, pamainomis studentai ten studijuoja Torą,
-      Telšių ješiva yra tokia pat garsi kaip pasauliečių Oksfordas, važiuokim į
-      Lietuvą, arba bent į Lenkijos Vilnių, Vilnius žydų miestas, savi savų
-      neapleis.
+      Not only is Aaron pale, he has completely changed - now he is only focused
+      on studying, hiding behind letters, immersing himself in books and scrolls
+      and never coming out. In Telshe Yeshiva you can study day and night
+      without interruption, students take turns studying the Torah, Telshe
+      Yeshiva is as famous as the secular Oxford, let’s go to Lithuania, or at
+      least to the Polish Vilnius, Vilnius is a Jewish city, Jews will never
+      abandon their own.
     </p>
   </Card>
 </div>

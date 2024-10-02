@@ -34,31 +34,30 @@
   </div>
   <Card class="card">
     <p>
-      Japonija vis labiau izoliavosi nuo likusio pasaulio, bet saugioje šeimoje
-      nesijautė jokio artėjančio karo ženklų. Tėtis mirė labai netikėtai. Po
-      laidotuvių išsikrausčiau gyventi į Tokiją, kur draudimo agentu dirbo mano
-      brolis. Kartą į namus jis parsivedė draugą, o tas, vos su manim
-      pasisveikinęs, išsitraukė užrašinę ir parašęs kelis hieroglifus, atkišo
-      man.
+      Japan became increasingly isolated from the rest of the world, but we felt
+      no signs of impending war in the safety of our family home. My father died
+      really unexpectedly. After the funeral, I moved to Tokyo, where my brother
+      worked as an insurance agent. Once he brought a friend home, and he, as
+      soon as saying hello, pulled out a notebook, wrote down a few hieroglyphs
+      and showed it to me.
     </p>
     <p class="mt-8" bind:this={triggerPoint}>
-      - Ar perskaitysite? - Gudriai nusišypsojo. - Senpo! - skamba kaip
-      dailininko slapyvardis, arba, pala, gal – <Explanation
-        variant="pink"
-        class="border-pink border-b-4"
-      >
+      - Can you read it for me? - he asked, smiling slyly. <br /> - Senpo! -
+      sounds like an artist’s pseudonym, or wait, maybe it’s
+
+      <Explanation variant="pink" class="border-pink border-b-4">
         <div slot="content" class="w-full">
           <p class="p-6">
-            Japonišką vardą, jei vardo savininkas garsiai pirmas neištaria,
-            galima perskaityti keliais būdais, ypač kai pasitaiko retesni
-            heroglifai.
+            A Japanese name, if its owner doesn’t pronounce it aloud first, can
+            be read in several ways, especially if rarer hieroglyphs are used.
           </p>
         </div>
-        <span slot="text">Čiunė?</span>
-      </Explanation><br />
-      Jo veidas nušvito: <br />
-      - Niekam dar nėra pavykę perskaityti mano vardo šitaip, Čiunė, - jūs tikra
-      retenybė, panele Jukiko.
+        <span slot="text">Chiune</span>
+      </Explanation>?<br />
+      His face lit up:
+      <br />
+      - No one has ever managed to read my name like this, Chiune. You are a real
+      gem, Miss Yukiko.
     </p>
   </Card>
 </div>

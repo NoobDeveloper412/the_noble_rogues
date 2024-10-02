@@ -43,14 +43,14 @@
     />
   </div>
   <Card class="card">
-    <h2 class="c-h2 mb-8">Bėgliai</h2>
+    <h2 class="c-h2 mb-8">Fugitives</h2>
     <p bind:this={triggerPoint}>
-      Aš Lėja, pamenate mane? Paskutinįkart matėmės, kai tėtis pranešė apie
-      kelionę Amerikon per Šanchajų. Jis turėjo išvaikščioti visą miestą,
-      kalbėtis su begale žmonių ir... atiduoti saują nedeklaruotų deimantų už
-      tai, kad gautų leidimą kirsti Reicho sieną, kad gautų bilietus į traukinį,
-      kad gautų bilietus į kruizinį laivą Potsdam maršrutu Genuja – Šanchajus,
-      pirmyn ir atgal.
+      I’m Leah, remember me? The last time we met, Dad told us about the
+      upcoming trip to America via Shanghai. He had to walk around the whole
+      city, talk to countless people and ... give away a handful of undeclared
+      diamonds for permission to cross the Reich border, to get the train
+      tickets, and to get the boarding cards to the Potsdam cruise ship:
+      Genoa-Shanghai, a round trip.
     </p>
   </Card>
 </div>

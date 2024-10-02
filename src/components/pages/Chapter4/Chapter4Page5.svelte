@@ -34,28 +34,29 @@
   </div>
   <Card class="card dark last">
     <p bind:this={triggerPoint}>
-      Su manimi jis kalbėdavosi taip aiškiai, ramiai ir atidžiai žvelgdamas man
-      į akis, kaip dar joks vyras nebuvo su manim elgęsis. Buvom pažįstami jau
-      kelis mėnesius, kai vieną dieną Čiunė, toks rimtas, kokio dar nebuvau
-      mačiusi, paklausė:
+      He spoke to me so clearly and calmly, looking into my eyes with such
+      consideration like no man before him. We knew each other for several
+      months, when one day Chiune, as serious as I had never seen him before,
+      asked:
     </p>
     <p class="mt-8">
-      - Ar tekėsite už manęs? - Kodėl norite mane vesti? - Nes jus galėčiau be
-      gėdos vežtis į <Explanation
+      - Will you marry me? - Why do you want to marry me? - Because I could take
+      you abroad with no
+      <Explanation
         variant="pink"
         class="border-pink border-b-4"
         cardClass="left-auto sm:left-0"
       >
         <div slot="content" class="w-full">
           <p class="p-6">
-            Pirmoji žmona buvo rusė, jis – japonas. Tais laikais santuokos tarp
-            skirtingų rasių buvo ne tik labai retos, bet ir labai nepriimtinos,
-            ypač diplomatiniuose sluoksniuose. Gali būti, kad rusė žmona nebūtų
-            galėjusi rodytis priėmimuose, o diplomatas be žmonos yra
-            nepatikimas, įtartinas. Tokie laikai!
+            His first wife was Russian, while he was Japanese. In those days,
+            interracial marriages were not only very rare but also really
+            unacceptable, especially in diplomatic circles. Perhaps his Russian
+            wife wouldn’t have been able to appear at receptions, and a diplomat
+            without a wife is unreliable, suspicious. Such were the times!
           </p>
         </div>
-        <span slot="text">užsienį</span>
+        <span slot="text">shame</span>
       </Explanation>.
     </p>
   </Card>
