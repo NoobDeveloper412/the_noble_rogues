@@ -21,7 +21,6 @@
       "animate-slideInBottom",
       "animation-slideOutBottom"
     );
-    
   };
 
   const setActiveTrigger = () => {
@@ -37,13 +36,19 @@
       <h2>Jan Zwartendijk</h2>
       <h5>1896-1976</h5>
       <p class="mb-6" bind:this={triggerPoint}>
-        Olandijos verslininkas, diplomatas. Padėjo išsigelbėti daugiau nei 2132  žydams, dalindamas suklastotas vizas. 
+        Dutch businessman and diplomat. Helped to save more than 2,132 Jews by
+        issuing counterfeit visas.
       </p>
       <p class="mb-6" bind:this={triggerPoint}>
-        Zwartendijkas vadovavo „Philips Electric“ gamykloms Lietuvoje. 1940 m. , dieną prieš Sovietams okupuojant Lietuvą,  paskirtas Nyderlandų garbės konsulu. Atbėgėliai Lenkijos žydai kreipėsi į Zwartendijką dėl vizos į Olandijos Indiją. Gavęs De Deckerio leidimą, Zwartendijkas sutiko padėti.
+        Zwartendijk managed Philips Electric factories in Lithuania. In 1940,
+        the day before the Soviets occupied Lithuania, he was appointed honorary
+        consul of the Netherlands. Polish refugee Jews applied to Zwartendijk
+        for a visa to Dutch India. With De Decker’s permission, Zwartendijk
+        agreed to help.
       </p>
       <p class="mb-6" bind:this={triggerPoint}>
-        1997 m. Izraelis suteikė Zwartendijkui (po jo mirties) Pasaulio tautų teisuolio vardą.
+        In 1997, Israel issued Zwartendijk (after his death) the title of
+        Righteous Among the Nations.
       </p>
     </Card>
   </div>
@@ -61,7 +66,6 @@
       alt="PersonTv"
       src={abVisaSrc}
     />
-
   </div>
 </ChapterItem>
 
@@ -71,14 +75,14 @@
     margin-bottom: 6%;
   }
   .card_per {
-    width:150PX;
+    width: 150px;
     left: 0;
     z-index: 99;
   }
-  .news_pap{
-    width:500px;
+  .news_pap {
+    width: 500px;
   }
-  .opacity-1{
+  .opacity-1 {
     opacity: 1;
   }
 
@@ -95,15 +99,15 @@
       left: 0;
       top: 5%;
     }
-    .news_pap{
+    .news_pap {
       width: 95%;
       top: auto;
       left: 0;
       bottom: 0px;
       margin-bottom: 0;
     }
-    .person_tv{
-      width:90%;
+    .person_tv {
+      width: 90%;
     }
   }
-</style>  
+</style>

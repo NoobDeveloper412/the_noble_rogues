@@ -19,7 +19,6 @@
       "animate-slideInBottom",
       "animate-slideOutTop"
     );
-    
   };
 
   const setActiveTrigger = () => {
@@ -33,31 +32,42 @@
   <div slot="story" class="animate-slideInBlurredBottom">
     <Card>
       <p class="mb-6" bind:this={triggerPoint}>
-        Istorija apie Sugiharos ir Zwartendijko žygdarbius žinoma diplomatiniame ir kultūriniame sektoriuose. Tai ryškiausias diplomatinis tiltas tarp Lietuvos ir Japonijos. 2014 m. pirmą kartą vienintelis gyvas Sugiharos sūnus lankėsi Lietuvoje, ir grįžo dar 6 kartus. 2015 m. Japonijoje išleistas filmas „Persona Non Grata“, opera „Sempo Sugihara“ pristatyta Lietuvoje. 2017 m. Lietuvoje pradėta rengti „Sugiharos savaitė“. 2018 m. Kaune meno instaliaciją Zwartendijkui pagerbti  atidarė Nyderlandų karalius, Lietuvos prezidentas ir Kauno meras. 2020 m. Kaune atidengta skulptūra Sugiharos garbei. Herojiški Sugiharos ir Zwartendijko poelgiai sujungia ne tik daugiau nei keturias šalis, bet ir visą už žmogaus teises ir laisvę tebesikaunantį pasaulį. 
+        The story of the feats of Sugihara and Zwartendijk is widely known in
+        the diplomatic and cultural sectors. It’s the brightest diplomatic
+        bridge between Lithuania and Japan. In 2014, Sugihara’s only living son
+        visited Lithuania for the first time, returning six more times
+        afterwards. In 2015, the film “Persona Non Grata” was released in Japan,
+        and the opera “Sempo Sugihara” premiered in Lithuania. Since 2017,
+        Sugihara Week has been held in Lithuania. In 2018, the art installation
+        to honor Zwartendijk was opened in Kaunas by the King of the
+        Netherlands, the President of Lithuania and the Mayor of Kaunas. In
+        2020, a sculpture in honor of Sugihara was unveiled in Kaunas. The
+        heroic actions of Sugihara and Zwartendijk unite not only more than four
+        countries, but also the entire world - which is still fighting for human
+        rights and freedom.
       </p>
       <p class="mb-6" bind:this={triggerPoint}>
-        Ateityje planuojame išleisti šį kūrinį kitomis kalbomis bei pildyti naujais skyriais.
+        In the future, we plan to publish this story in other languages and add
+        new chapters.
       </p>
     </Card>
   </div>
   <div
     slot="illustration"
     class="letter_area h-xl sm:left-1/20 sm:h-l w-full left-1/3 flex justify-center items-center relative"
-  >
-
-  </div>
+  ></div>
 </ChapterItem>
 
 <style global lang="postcss">
   .letter_area {
-      width: 530px;
-      bottom: 3%;
+    width: 530px;
+    bottom: 3%;
   }
-  @screen sm{
+  @screen sm {
     .letter_area {
-      width: 115%!important;
+      width: 115% !important;
       bottom: 3%;
       left: -8%;
     }
   }
-</style>  
+</style>

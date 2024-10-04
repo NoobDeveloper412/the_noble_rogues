@@ -1,5 +1,4 @@
 <script>
-
   export let activeTrigger, nextTrigger;
   import { Card } from "atoms";
   import { ChapterItem, HoverImage } from "molecules";
@@ -22,7 +21,6 @@
       "animate-slideInBottom",
       "animation-slideOutBottom"
     );
-    
   };
 
   const setActiveTrigger = () => {
@@ -38,13 +36,16 @@
       <h2>Chiune Sugihara</h2>
       <h5>1900–1986</h5>
       <p class="mb-6" bind:this={triggerPoint}>
-        Diplomatas, dirbęs Japonijos vicekonsulu tarpukario Lietuvoje. Padėjo išgelbėti 6000 žydų, dalindamas tranzitines vizas, kurioms išrašyti neturėjo leidimo.
+        Diplomat who served as vice-consul of Japan in pre-war Lithuania. Helped
+        to save 6,000 Jews by issuing transit visas he wasn't allowed to issue.
       </p>
       <p class="mb-6" bind:this={triggerPoint}>
-        Pasirinkdamas tai padaryti, Sugihara rizikavo savo karjera, savo šeimos gyvybėmis.
+        By choosing to do so, Sugihara risked his career and the lives of his
+        family members.
       </p>
       <p class="mb-6" bind:this={triggerPoint}>
-        1985 m. Izraelis suteikė Sugiharai Pasaulio tautų teisuolio vardą.
+        In 1985, Israel issued Sugihara the title of Righteous Among the
+        Nations.
       </p>
     </Card>
   </div>
@@ -62,6 +63,5 @@
       alt="PersonTv"
       src={abVisaSrc}
     />
-
   </div>
 </ChapterItem>
