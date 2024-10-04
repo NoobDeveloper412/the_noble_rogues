@@ -22,7 +22,7 @@
 </svelte:head>
 
 <div class="absolute w-full bg-ch10" out:fade in:fade>
-  <ChapterMenu links={menuLinks} chapterHeader="Kilnieji sukčiai" />
+  <ChapterMenu links={menuLinks} chapterHeader="The Noble Rogue" />
   <div class="sm:pt-120">
     <Chapter10Page1 bind:activeTrigger={trigger1} />
     <Chapter10Page2 bind:activeTrigger={trigger1} bind:nextTrigger={trigger2} />

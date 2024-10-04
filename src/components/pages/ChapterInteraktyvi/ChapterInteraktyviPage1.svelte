@@ -33,7 +33,7 @@ import { handleTriggerClasses } from "utils";
     <Card>
       <h2 class="c-h2 mb-8">Interaktyvi pamoka</h2>
       <p class="mb-8">
-        Interaktyvi pamoka „Kilnieji sukčiai" skirta 8–11 klasių moksleiviams. Pamoka pristato japonų konsulo Čiunės Sugiharos ir Nyderlandų diplomato Jano Zwartendijko žygdarbius tarpukario Kaune gelbstint žydus. Moksleiviai susipažins su istorinėmis asmenybės, prisimins tarpukarį, dalyvaus simuliaciniame žaidime, kur patirs, ką reiškia priimti sprendimus, nulemiančius jų pačių ar artimųjų gyvenimus, įsitrauks į pokalbį ir pasidalins mintimis apie moralę ir dorovines vertybes. Šia pamoka siekiama praplėsti mokinių požiūrį į aplinką, istoriją ir dabartinę pasaulinę situaciją, skatinti kritinį mąstymą, patirčių įvairovę bei diskusiją tarp bendraamžių.
+        Interaktyvi pamoka „The Noble Rogue" skirta 8–11 klasių moksleiviams. Pamoka pristato japonų konsulo Čiunės Sugiharos ir Nyderlandų diplomato Jano Zwartendijko žygdarbius tarpukario Kaune gelbstint žydus. Moksleiviai susipažins su istorinėmis asmenybės, prisimins tarpukarį, dalyvaus simuliaciniame žaidime, kur patirs, ką reiškia priimti sprendimus, nulemiančius jų pačių ar artimųjų gyvenimus, įsitrauks į pokalbį ir pasidalins mintimis apie moralę ir dorovines vertybes. Šia pamoka siekiama praplėsti mokinių požiūrį į aplinką, istoriją ir dabartinę pasaulinę situaciją, skatinti kritinį mąstymą, patirčių įvairovę bei diskusiją tarp bendraamžių.
        </p>  
       <p class="mb-8">
         <a class="link_p" target="_blank" href="/files/Kilnieji-sukčiai_pamokos-prezentacija.pdf">Pamokos prezentacija</a>

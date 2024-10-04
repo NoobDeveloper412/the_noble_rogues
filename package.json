@@ -7,7 +7,7 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "export:gh": "NODE_ENV=production sapper export --basepath / --legacy",
-    "start": "node __sapper__/build"
+    "start": "npx serve __sapper__/export"
   },
   "dependencies": {
     "@rollup/plugin-image": "^2.0.6",

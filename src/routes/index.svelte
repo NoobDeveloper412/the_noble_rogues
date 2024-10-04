@@ -8,7 +8,6 @@
   import { onMount } from "svelte";
   import { fly } from "svelte/transition";
 
-
   let landingPage;
   let content;
   let header;
@@ -69,7 +68,7 @@
 </script>
 
 <svelte:head>
-  <title>Kilnieji sukčiai</title>
+  <title>The Noble Rogue</title>
 </svelte:head>
 
 <div
@@ -83,10 +82,10 @@
     <a
       href="/en/01-how-to-recognize-spies"
       class="link_btn_part fixed opacity-0 border-primary-300 text-primary-300"
-      bind:this={button}>Beginning</a
+      bind:this={button}>Begin</a
     >
     <p class="short_details opacity-0 fixed" bind:this={shortDetails}>
-      patogiausia skaityti ne-mobiliuose ekranuose
+      most convenient to read on non-mobile screens
     </p>
   </div>
 
@@ -97,7 +96,8 @@
     class="landing-page__content absolute inset-0 m-auto h-min w-max uppercase text-center tracking-3 leading-7 opacity-0 animate-focusInContractBck"
     bind:this={content}
   >
-    Istorija apie tai, kaip <br /> vieno drąsa lemia <br /> tūkstančių gyvybes
+    The story of how <br /> the courage of <br /> one determines the lives of
+    <br /> thousands
   </p>
 
   <img

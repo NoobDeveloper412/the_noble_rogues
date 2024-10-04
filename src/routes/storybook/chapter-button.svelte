@@ -3,5 +3,5 @@
 </script>
 
 <div class="p-8">
-  <ChapterLink href="#">Kitas skyrius</ChapterLink>
+  <ChapterLink href="#">Next Chapter</ChapterLink>
 </div>

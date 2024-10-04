@@ -18,7 +18,7 @@ import { menuLinks } from "utils";
   </svelte:head>
   
   <div class="absolute w-full bg-primary" out:fade in:fade>
-	<ChapterMenu links={menuLinks} chapterHeader="Kilnieji sukčiai" />
+	<ChapterMenu links={menuLinks} chapterHeader="The Noble Rogue" />
 	<div class="about_page sm:pt-120">
 	  <ChapterAboutPage1 bind:activeTrigger={trigger1} />
 	  <ChapterAboutPage2 bind:activeTrigger={trigger1} bind:nextTrigger={trigger2} />
