@@ -73,11 +73,11 @@
       src={catOnFenceSrc}
     >
       <div class="bg-primary py-3 px-4 text-primary-300 font-black">
-        <h4 class="c-h4 font-serif pb-2">Vilties vartai</h4>
+        <h4 class="c-h4 font-serif pb-2">Gate of Hope</h4>
         <p class="text-sm">
-          Tuos vartus vėliau žydai ėmė vadinti "vilties vartais". Mūsų laikais
-          tvoros nebėra, tačiau varteliai išlikę. Ant jų užrašas: "Vizos
-          gyvenimui. Vilties vartai"
+          The Jews later began to call that gate the "gate of hope". In our time
+          the fence is gone, but the gate remains. The inscription on them:
+          "Visas for life. Gate of Hope"
         </p>
       </div>
     </HoverImage>

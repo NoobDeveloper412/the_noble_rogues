@@ -14,6 +14,6 @@
     header="Tėtis sutinka būti sovietų šnipu?"
     class="relative h-120 p-10 sm:p-4 z-10"
     choice1={{ href: `en${chapterLinks.chapter9}/taip`, text: "yes" }}
-    choice2={{ href: "", text: "ne" }}
+    choice2={{ href: "", text: "no" }}
 />
 </ChoicesTemplate>

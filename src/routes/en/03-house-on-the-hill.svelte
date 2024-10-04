@@ -26,8 +26,8 @@
   <ChoicesScreen
     header="Will the cat meow?"
     class="over relative h-120 p-10 sm:p-4 z-99"
-    choice1={{ href: `en${chapterLinks.chapter3}/taip`, text: "taip" }}
-    choice2={{ href: `en${chapterLinks.chapter3}/ne`, text: "ne" }}
+    choice1={{ href: `en${chapterLinks.chapter3}/taip`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter3}/ne`, text: "no" }}
   />
 </div>
 
