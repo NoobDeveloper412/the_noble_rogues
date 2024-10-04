@@ -11,7 +11,7 @@
 <ChoicesTemplate class="bg-grayscale">
   <Chapter7NePage1 />
   <ChoicesScreen
-    header="Sugihara išduos vizas?"
+    header="Will Sugihara issue visas?"
     class="relative h-120 p-10 sm:p-4 z-10"
     choice1={{ href: `en${chapterLinks.chapter7}/taip`, text: "yes" }}
     choice2={{ href: "", text: "no" }}

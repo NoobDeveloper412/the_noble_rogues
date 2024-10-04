@@ -11,9 +11,9 @@
 <ChoicesTemplate class="bg-grayscale ch_9_ne">
   <Chapter9NePage1 />
   <ChoicesScreen
-    header="Tėtis sutinka būti sovietų šnipu?"
+    header="Will Dad agree to be a Soviet spy?"
     class="relative h-120 p-10 sm:p-4 z-10"
     choice1={{ href: `en${chapterLinks.chapter9}/taip`, text: "yes" }}
     choice2={{ href: "", text: "no" }}
-/>
+  />
 </ChoicesTemplate>

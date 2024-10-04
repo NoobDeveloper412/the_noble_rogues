@@ -41,7 +41,7 @@
     />
   </div>
   <Card class="card float-right sm:float-none">
-    <h2 class="c-h2 mb-8">Taip</h2>
+    <h2 class="c-h2 mb-8">Yes</h2>
     <p class="mb-6" bind:this={triggerPoint}>
       And then Chiune Sugihara finally makes his decision. Early in the morning,
       he goes out to the yard and announces to everyone out loud, “I will issue
