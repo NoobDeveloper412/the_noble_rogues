@@ -80,6 +80,10 @@
 </div>
 
 <style global lang="postcss">
+  .card {
+    z-index: 20 !important;
+  }
+
   .ch2tap {
     z-index: 9 !important;
   }

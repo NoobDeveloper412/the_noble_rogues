@@ -17,7 +17,7 @@
 </script>
 
 <div
-  class="relative w-full h-screen 
+  class="relative w-full h-screen
   {variants[variant].container} 
   {$$props.class || ''}"
 >
@@ -27,7 +27,7 @@
     src={content[currentIndex].src}
   />
   <div
-    class="bg-primary flex flex-col justify-center items-center z-10 absolute max-w-lg sm:max-w-none bottom-1/20 sm:bottom-0 left-1/3 sm:left-0 
+    class="bg-primary flex flex-col justify-center items-center z-10 absolute max-w-lg sm:max-w-none bottom-1/20 sm:bottom-0 left-1/3 sm:left-0
     {variants[variant].item} "
   >
     <CarouselCard {content} bind:currentIndex {close} variant="rooms" />

@@ -59,7 +59,7 @@
     />
   </div>
   <Card class="card dark last float-right sm:float-none">
-    <h2 class="c-h2 mb-8">Ne</h2>
+    <h2 class="c-h2 mb-8">No</h2>
     <p>
       Sugihara obeys his authorities and does not issue visas. <br /><br />
       Japan has made it clear that visas cannot be issued. Those people applying

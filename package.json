@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "the_noble_rogues",
+  "description": "A an interactive story showing how the jews lived through a time of pain and suffereing.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

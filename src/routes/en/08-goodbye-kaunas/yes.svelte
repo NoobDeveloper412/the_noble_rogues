@@ -40,7 +40,7 @@
     header="Will the maid betray Gudze?"
     class="relative h-120 p-10 sm:p-4 z-10"
     choice1={{ href: "", text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter8}/ne`, text: "no" }}
+    choice2={{ href: `en${chapterLinks.chapter8}/no`, text: "no" }}
   />
 </div>
 

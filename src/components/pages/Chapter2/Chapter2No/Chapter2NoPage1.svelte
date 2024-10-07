@@ -20,7 +20,7 @@
     triggerClass = handleTriggerClasses(
       activeTrigger,
       nextTrigger,
-      "animate-scaleDown ",
+      "animate-scaleDown",
       "animate-fadeOut"
     );
     wireClass = handleTriggerClasses(
@@ -44,7 +44,7 @@
       <p class="mb-6">
         And Dad’s sweetheart, biting angrily at her lip, shook her head: no
       </p>
-      <h2 class="c-h2 my-8 text-primary-300">Ne</h2>
+      <h2 class="c-h2 my-8 text-primary-300">No</h2>
       <p>
         Because things aren’t so bad here, because Grandma is too weak to endure
         such a long trip across the seas, because little Tolik throws up every

@@ -33,8 +33,8 @@
   <ChoicesScreen
     header="Does Zwartendijk agree to forge Curacao visas?"
     class="relative h-120 p-10 sm:p-4 z-999"
-    choice1={{ href: `en${chapterLinks.chapter6}/taip`, text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter6}/ne`, text: "no" }}
+    choice1={{ href: `en${chapterLinks.chapter6}/yes`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter6}/no`, text: "no" }}
   />
 </div>
 

@@ -31,8 +31,8 @@
   <ChoicesScreen
     header="Will Sugihara issue visas?"
     class="relative h-120 p-10 sm:p-4 z-999"
-    choice1={{ href: `en${chapterLinks.chapter7}/taip`, text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter7}/ne`, text: "no" }}
+    choice1={{ href: `en${chapterLinks.chapter7}/yes`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter7}/no`, text: "no" }}
   />
 </div>
 

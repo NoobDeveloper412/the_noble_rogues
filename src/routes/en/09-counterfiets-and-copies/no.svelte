@@ -1,19 +1,19 @@
 <script>
   import { ChoicesTemplate, ChoicesScreen } from "components";
-  import { Chapter7NePage1 } from "pages/Chapter7";
+  import { Chapter9NePage1 } from "pages/Chapter9";
   import { chapterLinks, chapterTitles } from "utils";
 </script>
 
 <svelte:head>
-  <title>{chapterTitles.chapter7}</title>
+  <title>{chapterTitles.chapter9}</title>
 </svelte:head>
 
-<ChoicesTemplate class="bg-grayscale">
-  <Chapter7NePage1 />
+<ChoicesTemplate class="bg-grayscale ch_9_ne">
+  <Chapter9NePage1 />
   <ChoicesScreen
-    header="Will Sugihara issue visas?"
+    header="Will Dad agree to be a Soviet spy?"
     class="relative h-120 p-10 sm:p-4 z-10"
-    choice1={{ href: `en${chapterLinks.chapter7}/taip`, text: "yes" }}
+    choice1={{ href: `en${chapterLinks.chapter9}/yes`, text: "yes" }}
     choice2={{ href: "", text: "no" }}
-/>
+  />
 </ChoicesTemplate>

@@ -65,7 +65,7 @@
     header="Will the cat meow?"
     class="relative h-120 p-10 sm:p-4 z-10"
     choice1={{ href: "", text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter3}/ne`, text: "no" }}
+    choice2={{ href: `en${chapterLinks.chapter3}/no`, text: "no" }}
   />
 </div>
 

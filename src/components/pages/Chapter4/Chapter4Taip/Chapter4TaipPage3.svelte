@@ -27,6 +27,7 @@
   const setActiveTrigger = () => {
     activeTrigger1 = elementInViewport(triggerPoint1);
     activeTrigger2 = elementInViewport(triggerPoint2);
+    console.log(triggerPoint1, triggerPoint2)
     getTriggerClasses();
   };
 </script>

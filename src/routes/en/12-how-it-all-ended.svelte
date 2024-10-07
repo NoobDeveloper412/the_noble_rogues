@@ -33,8 +33,8 @@
   <ChoicesScreen
     header="Want more numbers?"
     class="relative h-120 p-10 sm:p-4 z-999"
-    choice1={{ href: `en${chapterLinks.chapter12}/taip`, text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter12}/ne`, text: "" }}
+    choice1={{ href: `en${chapterLinks.chapter12}/yes`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter12}/no`, text: "" }}
   />
 </div>
 

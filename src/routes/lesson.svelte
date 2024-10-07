@@ -11,7 +11,7 @@ import { menuLinks } from "utils";
   </script>
   
   <svelte:head>
-	<title>Interaktyvi pamoka</title>
+	<title>Interactive Lesson</title>
   </svelte:head>
   
   <div class="absolute w-full bg-pamoka" out:fade in:fade>

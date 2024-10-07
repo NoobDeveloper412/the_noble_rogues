@@ -28,8 +28,8 @@
   <ChoicesScreen
     header="Will you hide the girls?"
     class="relative h-120 p-10 sm:p-4 z-999"
-    choice1={{ href: `en${chapterLinks.chapter11}/taip`, text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter11}/ne`, text: "no" }}
+    choice1={{ href: `en${chapterLinks.chapter11}/yes`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter11}/no`, text: "no" }}
   />
 </div>
 

@@ -23,8 +23,8 @@
   <ChoicesScreen
     header="Will Dad agree to be a Soviet spy?"
     class="relative h-120 p-10 sm:p-4 z-999"
-    choice1={{ href: `en${chapterLinks.chapter9}/taip`, text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter9}/ne`, text: "no" }}
+    choice1={{ href: `en${chapterLinks.chapter9}/yes`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter9}/no`, text: "no" }}
   />
 </div>
 

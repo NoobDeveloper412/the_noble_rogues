@@ -29,8 +29,8 @@
   <ChoicesScreen
     header="Will the maid will betray Gudze?"
     class="relative h-120 p-10 sm:p-4 z-999"
-    choice1={{ href: `en${chapterLinks.chapter8}/taip`, text: "yes" }}
-    choice2={{ href: `en${chapterLinks.chapter8}/ne`, text: "no" }}
+    choice1={{ href: `en${chapterLinks.chapter8}/yes`, text: "yes" }}
+    choice2={{ href: `en${chapterLinks.chapter8}/no`, text: "no" }}
   />
 </div>
 

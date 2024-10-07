@@ -17,6 +17,6 @@
 <ChoicesScreen
   header="We leave without Grandma?"
   class="relative h-120 p-10 sm:p-4"
-  choice1={{ href: `en${chapterLinks.chapter5}/taip`, text: "yes" }}
-  choice2={{ href: `en${chapterLinks.chapter5}/ne`, text: "no" }}
+  choice1={{ href: `en${chapterLinks.chapter5}/yes`, text: "yes" }}
+  choice2={{ href: `en${chapterLinks.chapter5}/no`, text: "no" }}
 />

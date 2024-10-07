@@ -1,5 +1,5 @@
 <script>
-  export let src, alt, index
+  export let src, alt, index;
 </script>
 
 <img
