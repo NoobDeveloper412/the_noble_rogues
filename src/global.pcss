@@ -6,3 +6,57 @@
   font-family: "Grafier";
   src: url("/fonts/Grafier-BlackDisplay.woff") format("woff");
 }
+
+body {
+}
+.opacity-1 {
+  opacity: 1;
+}
+.z-999 {
+  z-index: 999;
+}
+.z-9999 {
+  z-index: 9999;
+}
+.image-container {
+  z-index: -9 !important;
+}
+@media only screen and (min-width: 767px) {
+  * {
+    z-index: 9;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .menu {
+    z-index: 9999;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1350px) {
+  .image-container {
+    max-width: 680px;
+    z-index: -9;
+  }
+  .hover-image-container {
+    z-index: 9;
+  }
+  .container {
+    width: 90%;
+  }
+  .image-container.ch-48 {
+    max-width: 48%;
+  }
+}

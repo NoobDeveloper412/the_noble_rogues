@@ -17,26 +17,26 @@
 
 <div class="chapter-item flex sm:flex-col">
   <Card class="card">
-    Kai buvau maža mergaitė, - sako ji, - svajojau, kad užaugusi būsiu rašytoja.
-    Kai turi tėtį - Kagavos licėjaus direktorių, <span bind:this={triggerPoint1}
-      >tai</span
+    When I was a little girl, she says, I dreamed of being a writer when I grew
+    up. When your father is the director of the Kagawa Lyceum, <span
+      bind:this={triggerPoint1}>this</span
     >
-    namuose turi didžiulę biblioteką, tad ryte rijau visas knygas iš eilės. Pamenu
-    labai sunkius licėjaus egzaminus, kai nuo jų ilsindama galvą atsipalaiduodavau
-    rašydama eilėraščius. Mane spausdino žurnalai Reijokai: „Panelių pasaulis“, ir
-    Shôjokurabu: „Merginų klubas“, buvau labai laiminga. Mokiausi rašyti <Explanation
+    means you have a huge library at home, and I used to devour all the books in
+    it. I remember very difficult lyceum exams, when to relax my brain I began writing
+    poems. I was published by the magazines Reijokai (Young Ladies’ World) and Shôjokurabu
+    (The Girls’ Club). I was very happy. I was learning to write <Explanation
       variant="pink"
       class="border-pink border-b-4"
     >
       <div slot="content" class="w-full">
-        <p class="p-6">Tanka - trisdešimt vieno skiemens eilėraštis.</p>
+        <p class="p-6">A thirty-one-syllable poem</p>
       </div>
       <span slot="text">tankas</span>
-    </Explanation>, norėjau tapti garsia poete. Arba dailininke! Arba išvažiuoti
-    į Paryžių ir ten atidaryti savo grožio saloną. Tiek drąsių svajonių turėjau,
-    - turbūt paveldėjau tai iš mamos: kai tik Japonijoje atsirado rankiniai
-    laikrodukai, ji iš visų moterų <span bind:this={triggerPoint2}>pirma</span>
-    tokį sau nusipirko, kai į madą atėjo aukštakulniai bateliai – ji nusispyrė šlepetes
-    ir kaukšėjo jais net namuose.
+    </Explanation>,I wanted to become a famous poet. Or an artist! Or to go to
+    Paris and open my own beauty salon there. I had so many bold dreams - I must
+    have inherited it from my mother: as soon as dainty wrist watches appeared
+    in Japan, she was the first of all women to buy one for herself; when
+    high-heeled shoes came into fashion - she kicked away her slippers and even
+    wore them around the house.
   </Card>
 </div>

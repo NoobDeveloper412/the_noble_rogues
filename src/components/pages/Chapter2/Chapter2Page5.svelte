@@ -29,12 +29,18 @@
   </div>
   <Card class="card dark last">
     <p class="text-primary-300">
-      Tėtis, kas vakarą po darbo vis ilgiau prasėdintis prie radijo, pagaliau tą
-      radiją išjungė ir papilkėjusiom lūpom mamai ištarė: „išvažiuokim,
-      brangioji, kraustykimės Amerikon, ten turiu pažįstamų. Jie sako, kad
-      padėtų išsinuomoti juvelyrikos saloną puikioje gatvėje, mūsų vaikai gabūs
-      kalboms, greitai prisitaikytų, įrašyčiau juos į geriausias mokyklas,
-      važiuokim, širdele, prašau.“
+      Dad, who started sitting at the radio longer and longer, finally turned it
+      off and said to Mom, his lips a grayish tint: let's go, darling, let's
+      move to America, I have acquaintances there. They say they would help to
+      rent a jewellery shop on a very good street, our kids are good at
+      languages, they adapt quickly, I would enroll them in the best schools,
+      let’s go, sweetheart, I beg you.
     </p>
   </Card>
 </div>
+
+<style global lang="postcss">
+  .shadow-primaryTop {
+    z-index: 9;
+  }
+</style>

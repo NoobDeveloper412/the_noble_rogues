@@ -43,7 +43,7 @@
 <Container
   {...$$props}
   id="explanationContainer"
-  class="z-10 w-80 sm:w-64 absolute explanation-card hidden {positionX} {positions[positionY]} {variants[variant].shadow} {backgrounds[background]} "
+  class="z-50 w-80 sm:w-64 absolute explanation-card hidden {positionX} {positions[positionY]} {variants[variant].shadow} {backgrounds[background]} "
 >
   <div class="w-16px {variants[variant].background}" />
   <div class="flex flex-col items-end w-80 md:w-76 text-sm">
@@ -53,7 +53,7 @@
         {href}
         target="_blank"
         class="text-primary mb-6 mr-6 h-6 border-primary border-b text-xs"
-        >nuotraukos šaltinis</a
+        >source image</a
       >
     {/if}
   </div>

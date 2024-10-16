@@ -25,51 +25,61 @@
 <ChapterItem class="z-20 mb-20 mt-72 smRange:mt-54">
   <div slot="story" class="pt-16 sm:t-0 animate-slideInBlurredBottom">
     <Card>
-      <h2 class="c-h2 mb-8">Namai ant kalno</h2>
+      <h2 class="c-h2 mb-8">House on the hill</h2>
       <p>
-        Štai Europa. Štai Baltijos
-        <Explanation variant="green" class="w-120 md:w-80" href={imageReferences[3].jura} positionY="bottom">
+        This is Europe. This is the Baltic
+        <Explanation
+          variant="green"
+          class="w-120 md:w-80"
+          href={imageReferences[3].jura}
+          positionY="bottom"
+        >
           <div slot="content" class="">
             <img class="w-full h-64" alt="" src={klaipedaSrc} />
             <p class="p-6 text-sm">
-              Klaipėda pasakojamuoju metu, nuo 1939 kovo 23 d. priklauso
-              Vokietijai.
+              At the time of the story, Klaipėda was a part of Germany (since
+              March 23, 1939).
             </p>
           </div>
-          <span slot="text"> jūra</span>
+          <span slot="text"> Sea</span>
         </Explanation>
-        . Štai krašteliu prie tos jūros prisisegusi Lietuvos valstybė. Štai Kauno
-        miestas. Kaunas – laikinoji sostinė, kol
-        <Explanation variant="green" class="w-120 md:w-80" href={imageReferences[3].vilnius} positionY="bottom" >
+        . This, holding to that sea with one short border, is the state of Lithuania.
+
+        <Explanation
+          variant="green"
+          class="w-120 md:w-80"
+          href={imageReferences[3].vilnius}
+          positionY="bottom"
+        >
           <div slot="content" class="">
             <img class="w-full h-64" alt="" src={vilniusSrc} />
             <p class="p-6 text-sm">
-              Vilnius 1939 m. rugpjūtį dar priklausė Lenkijai (Lenkija nuo
-              rugsėjo 1 d. užpulta nacistinės Vokietijos, rugsėjo 17 d. Lenkijos
-              rytus puola SSSR) rugsėjo 19 d. Vilnių ir jo apylinkes užėmė
-              Raudonosios armijos daliniai. Pagal 1939 spalio 10 d. savitarpio
-              pagalbos sutartį Vilniaus kraštas grąžintas Lietuvai, spalio 27-28
-              d. į Vilnių iškilmingai įžengė Lietuvos kariuomenė.
+              As of August 1939, Vilnius still belonged to Poland (Poland was
+              attacked by Nazi Germany on September 1, and on September 17
+              eastern Poland was attacked by the USSR). On September 19, Vilnius
+              and its area were occupied by the Red Army. According to the
+              mutual assistance agreement of October 10, 1939, the Vilnius
+              region was to be returned to Lithuania. On October 27-28, the
+              Lithuanian Armed Forces solemnly entered Vilnius.
             </p>
           </div>
           <span slot="text"> Vilnius</span>
-        </Explanation> vis dar neaišku, kieno. Štai Vaižganto gatvė ir 30 numeriu
-        pažymėtas baltas naujutėlaitis
-        <Explanation variant="green" class="w-120 md:w-80"  positionY="bottom" >
+        </Explanation> is still unclear whom it belongs to. This is Vaižganto Street
+        and a white brand new
+        <Explanation variant="green" class="w-120 md:w-80" positionY="bottom">
           <p slot="content" class="p-6 text-sm">
-            Namą savo šeimai statėsi tuometinis Lietuvos Švietimo ministras
-            Juozas Tonkūnas (1894.03.30 – 1968.05.06) projektą namui parengė jo
-            žmonos brolis Juozas Milvydas (1914.05.14 – 1941.06.25). Namas
-            baigtas statyti 1939 spalio 3 d., o spalio 7 d. Juozas Tonkūnas
-            pasirašė nuomos sutartį su neseniai į Lietuvą Japonijos konsulato
-            atidaryti atvykusiu Čiune Sugihara.
+            The house was commissioned by the Lithuanian Minister of Education
+            Juozas Tonkūnas (March 30, 1894 - May 6, 1968) for his family to
+            live in. It was completed on October 3, 1939, and on October 7, 1939
+            Juozas Tonkūnas signed a lease agreement with Chiune Sugihara, who
+            recently arrived in Lithuania to open a Japanese Consulate.
           </p>
-          <span slot="text"> namas</span>
-        </Explanation>, aptvertas tvora. Štai varteliai, dviejų mūro bokštelių
-        įrėminti. Štai ir aš, viso šio vaizdo savininkas, katinas Akio, tupiu
-        ant vartelių ir šildausi besibaigiančio rudens saulėje.
+          <span slot="text"> house</span>
+        </Explanation> - marked with number 30 and surrounded by a fence. This is
+        the gate, framed by two brick towers. And this is me, the owner of this whole
+        image, Akio the cat, sitting on the gate and warming up in the late autumn
+        sun.
       </p>
     </Card>
   </div>
-
 </ChapterItem>

@@ -1,9 +1,9 @@
 <script>
   import { Card } from "atoms";
   import deskSrc from "images/Chapter2/desk.png";
-  import radioSrc from "images/Chapter2/radio.png";
-  import passportSrc from "images/Chapter2/passport.png";
   import letterJSrc from "images/Chapter2/letterJ.png";
+  import passportSrc from "images/Chapter2/passport.png";
+  import radioSrc from "images/Chapter2/radio.png";
   import { handleTriggerClasses } from "utils";
 
   export let nextTrigger;
@@ -40,7 +40,7 @@
 
 <div class="chapter-item container flow-root sm:flex">
   <div
-    class="image-container overflow-hidden fixed w-1/2 bottom-0 left-1/20 h-screen sm:w-full sm:left-0"
+    class="image-container ch2tap overflow-hidden fixed w-1/2 bottom-0 left-1/20 h-screen sm:w-full sm:left-0"
   >
     <img
       src={deskSrc}
@@ -55,31 +55,34 @@
     <img
       src={passportSrc}
       alt=""
-      class="hover-control absolute bottom-0 top-1/4 left-1/3 my-auto sm:left-0 sm:right-0 sm:mx-auto {passPortTrigger ||
+      class="hover-control absolute bottom-0 top-1/4 left-1/5 my-auto sm:left-0 sm:right-0 sm:mx-auto {passPortTrigger ||
         'animate-vibrate'}"
     />
     <img
       src={letterJSrc}
       alt=""
-      class="hover-display absolute bottom-0 top-1/4 left-1/3 my-auto sm:left-0 sm:right-0 sm:mx-auto opacity-0 transition-opacity duration-500"
+      class="hover-display absolute bottom-0 top-1/4 left-1/5 my-auto sm:left-0 sm:right-0 sm:mx-auto opacity-0 transition-opacity duration-500"
     />
   </div>
   <Card class="card float-right sm:float-none">
     <p bind:this={triggerPoint} class="mb-6">
-      Ir tėčio širdelė, liūdnai nusišypsojusi, linktelėjo:
+      And Dad’s sweetheart, smiling sadly, nodded:
     </p>
-    <h2 class="c-h2 mb-8">Taip</h2>
+    <h2 class="c-h2 mb-8">yes</h2>
     <p>
-      Iš pradžių tėtis siūlė keliauti Šveicarijon, bet paaiškėjo, kad mūsų
-      pasai, nors ir vokiški, turi papildomą įrašą – didelę riebią raudoną J
-      raidę. O šita raidė šveicarams nepatinka. Mes jus priimtumėm, sako
-      mandagūs šveicarai, bet nepriimsime, pas mus ir taip tų J raidžių per
-      daug.
+      At first, Dad offered to travel to Switzerland, but it turned out that our
+      passports, although German, have an additional entry - a big bold red
+      letter J. And the Swiss don’t like that letter. We would accept you, say
+      the polite Swiss, but we won’t, we already have too many of those J
+      letters.
     </p>
   </Card>
 </div>
 
 <style global lang="postcss">
+  .ch2tap {
+    z-index: 9 !important;
+  }
   .hover-control:hover {
     & + .hover-display {
       @apply opacity-100;

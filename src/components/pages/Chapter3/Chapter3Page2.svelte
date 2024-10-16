@@ -1,12 +1,12 @@
 <script>
   export let activeTrigger, nextTrigger;
   import { Card } from "atoms";
-  import { ChapterItem, HoverImage } from "molecules";
-  import catOnFenceSrc from "images/chapter3/catOnFence.png";
-  import carSrc from "images/chapter3/car.png";
-  import birdsEatingSrc from "images/chapter3/birdsEating.png";
   import birds2FlyingSrc from "images/chapter3/2birdsFlying.png";
   import birds3FlyingSrc from "images/chapter3/3birdsFlying.png";
+  import birdsEatingSrc from "images/chapter3/birdsEating.png";
+  import carSrc from "images/chapter3/car.png";
+  import catOnFenceSrc from "images/chapter3/catOnFence.png";
+  import { ChapterItem, HoverImage } from "molecules";
   import { elementInViewport, handleTriggerClasses } from "utils";
 
   let triggerPoint, fromTopClass, fromBottomClass, containerClass, fenceClass;
@@ -43,23 +43,23 @@
   <div slot="story" class="animate-slideInBlurredBottom">
     <Card>
       <p class="mb-6" bind:this={triggerPoint}>
-        Tupiu prisimerkęs, galima būtų pagalvoti, kad snaudžiu, bet iš tikro
-        stebiu žvirblius, džiugiai besipešančius prie arklio mėšlo krūvutės.
-        Eismas šioje gatvėje nedidelis, krūvučių mažai, o blogiausia – į namą
-        įsikraustę žmonės neturi arklio, turi du automobilius: juodą tik darbo
-        dienoms skirtą Kadilaką su vairuotoju ir triukšmingą smirdantį geležies
-        gabalą, Buick'ą su užrašu K125. Kaip tai „argi katinas moka skaityti?“.
-        Katinas, jei jis tikras šni... jei jis tikras šnypščiantis padaras, moka
-        viską, ko šiame katiniškame darbe gali prireikti.
+        My eyes are half-closed, you might think I’m asleep, but I’m actually
+        watching sparrows happily fighting by a pile of horse manure. The
+        traffic on this street is relaxed, there are few such piles, and the
+        worst thing is that the people who moved into the house don’t even own a
+        horse, they have two cars: a black Cadillac with a driver, reserved for
+        the working days, and a noisy smelly clunker, Buick with the number
+        K125. Oh, you say “cats can’t read”? A cat, if he’s a real sp... if he’s
+        a real hissing creature, knows everything is required in the cat’s job.
       </p>
       <p class="mb-6">
-        Kad gaučiau pakankamai informacijos, užtenka, kad mane paglostytų.
-        Glosto mane visi: ir kartą per mėnesį ateinanti rusė skalbėja, ir maloni
-        japonė katės akimis Jukiko, ir jos sesuo, vaikų auklė Setsuko, ir į
-        katiną panašus vaikų tėvas Čiunė, nors tas labai užsiėmęs savo
-        popieriais ir į kiemą eina nedažnai, tad kad pasitrinčiau į jo dryžuotom
-        kostiuminėm kelnėm aptemptą blauzdą prašydamas dėmesio, tenka įtipenti į
-        jo darbo kambarius pirmame aukšte.
+        To get enough information, being petted is all I need. Everyone pets me:
+        a Russian laundry lady who comes here once a month, a nice Japanese
+        woman with feline eyes, Yukiko, her sister Setsuko, the babysitter, and
+        the catlike father of the children, Chiune - although he is very busy
+        with his paperwork and rarely comes out into the yard, so if I want to
+        rub against his leg in the striped suit pants, asking for attention, I
+        must sneak into his offices on the first floor.
       </p>
     </Card>
   </div>
@@ -68,16 +68,16 @@
     class="h-xl sm:h-l w-full flex justify-center items-center relative"
   >
     <HoverImage
-      class="maw-w-screen-xl absolute bottom-0 sm:mb-16 z-100 animate-slideInBlurredBottom {fenceClass}"
+      class="maw-w-screen-xl absolute bottom-1/10 right-0 sm:mb-0 z-100 animate-slideInBlurredBottom {fenceClass}"
       alt=""
       src={catOnFenceSrc}
     >
       <div class="bg-primary py-3 px-4 text-primary-300 font-black">
         <h4 class="c-h4 font-serif pb-2">Vilties vartai</h4>
         <p class="text-sm">
-          Tuos vartus vėliau žydai ėmė vadinti "vilties vartais". Mūsų laikais
-          tvoros nebėra, tačiau varteliai išlikę. Ant jų užrašas: "Vizos
-          gyvenimui. Vilties vartai"
+          The Jews later began to call that gate the "gate of hope". In our time
+          the fence is gone, but the gate remains. The inscription on them:
+          "Visas for life. Gate of Hope"
         </p>
       </div>
     </HoverImage>
@@ -103,3 +103,10 @@
     />
   </div>
 </ChapterItem>
+
+<style global lang="postcss">
+  .hover-caption {
+    max-width: 530px;
+    min-width: 530px;
+  }
+</style>

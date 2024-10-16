@@ -1,8 +1,8 @@
 <script>
   import { Card } from "atoms";
-  import { ChapterItem } from "molecules";
   import building2Src from "images/Chapter2/building2.png";
   import wireSrc from "images/Chapter2/wire.png";
+  import { ChapterItem } from "molecules";
   import { elementInViewport, handleTriggerClasses } from "utils";
 
   export let activeTrigger, nextTrigger;
@@ -13,8 +13,8 @@
     triggerClass = handleTriggerClasses(
       activeTrigger,
       nextTrigger,
-      "animate-fadeIn",
-      "animate-fadeOut"
+      "animate-scaleDown",
+      "opacity-0"
     );
     wireClass = handleTriggerClasses(
       activeTrigger,
@@ -36,20 +36,20 @@
   <div slot="story" class="pt-16">
     <Card class="bg-primary">
       <p class="mb-6" bind:this={triggerPoint}>
-        Geto teritorijoje maklinėjo daug mažų vaikų, išsigandusių našlaičių. Jų
-        tėvai išeidavo dirbti į miestą, ir kurią dieną tiesiog nebegrįždavo.
-        Vieną vakarą namo negrįžo ir brolis Aronas. Jis padėjo kraustytis savo
-        merginos šeimai, užsibuvo mieste po komendanto valandos ir buvo
-        nušautas. Kas dešimt dienų mama eidavo pasiimti duonos davinio. Duonos
-        buvo taip mažai. Močiutė mirė Velykų išvakarėse. Nuo senatvės ir
-        nuolatinio neprivalgymo, - savo davinį slapta atkišdavo mažajam Tolikui,
-        kuris jos lovoje jau praleisdavo visą dieną.
+        Many little children, frightened orphans, were wandering around the
+        Ghetto. Their parents went downtown to work, and one day they just
+        didn’t return. One evening my brother Aaron didn’t come back. He helped
+        move his girlfriend’s family, stayed downtown after curfew and was shot
+        dead. Every ten days Mom went to pick up our share of bread. There was
+        so little bread. Grandma died on Easter Eve. From old age and
+        malnutrition - she secretly gave her ration to our little Tolik, who
+        spent the whole day in her bed.
       </p>
     </Card>
   </div>
   <div
     slot="illustration"
-    class="max-w-screen-md 2xl:m-auto w-full flex justify-center items-center relative opacity-0 {triggerClass}"
+    class="building_2 max-w-screen-md 2xl:m-auto w-full flex justify-center items-center relative opacity-0 {triggerClass}"
   >
     <img
       class="transform lg:scale-92 mb-16 sm:w-full"
@@ -63,3 +63,9 @@
     />
   </div>
 </ChapterItem>
+
+<style global lang="postcss">
+  /* .building_2{
+    max-width: 864.3px; 
+  } */
+</style>

@@ -36,21 +36,22 @@
   </div>
   <Card class="card float-right sm:float-none">
     <p>
-      Lagaminus vėl susikrauname tik dar po metų – kraustomės į Helsinkį, kur
-      mano vyras dirbs vertėju pasiuntinybėje. Kadangi Sovietai atsisakė išduoti
-      vizą, laivu plaukėme į Sietlą, tada važiavome į Niujorką, nė neapžiūrėję
-      miesto, iškart lipome į milžinišką kruizinį vokiečių laivą Bremen.
-      Nemaniau, kad būna tokio didumo laivų. Laive buvo baseinai, kino teatrai,
-      restoranai: pusryčiams, pietums ir vakarienėms reikėdavo persirengti vis
-      kitais drabužiais. Gyva muzika: <span bind:this={triggerPoint}>dar</span> orkestrui
-      nepradėjus groti, reikdavo šventiškais apdarais jau sėdėti prie stalo. Kai
-      vėliau manęs kas paklausdavo: “koks įspūdis plaukti toookiu laivu?”, atsakydavau:
-      „visą laiką persirenginėjau“.
+      We pack our suitcases again a year later - this time we move to Helsinki,
+      where my husband will work as an interpreter in the embassy. As the
+      Soviets refused to issue a visa, we must take a boat to Seattle, then go
+      to New York and, without even getting to see the city, immediately board
+      the giant German cruise ship Bremen. I couldn’t imagine there were ships
+      like that. It had swimming pools, cinemas, restaurants: breakfast, lunch
+      and dinner required changing clothes. Live music: <span
+        bind:this={triggerPoint}>before</span
+      > the orchestra started playing, we had to sit at the table in fancy outfits.
+      When someone later asked me, “How was it to be on a ship like that?" I replied,
+      “I've been changing my outfits all the time."
     </p>
     <p class="mt-8">
-      Po keturių dienų, praleistų tarp nuolat deimantų vėrinius ir šilko
-      sukneles demonstruojančių turtuolių amerikiečių, pagaliau išlipom į krantą
-      ir traukinys mus ramiai nulakdino į Helsinkį.
+      After four days spent among wealthy Americans with their diamond necklaces
+      and silk gowns, we finally got ashore and the train took us quietly to
+      Helsinki.
     </p>
   </Card>
 </div>

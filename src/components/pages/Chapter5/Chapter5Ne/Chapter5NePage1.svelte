@@ -40,11 +40,11 @@
     />
   </div>
   <Card class="card float-right sm:float-none">
-    <h2 class="c-h2 mb-8">Ne</h2>
+    <h2 class="c-h2 mb-8">No</h2>
     <p>
-      Prabyla visiškai išbalęs Aronas. Telshe yeshiva,- sako jis, Telšių ješiva,
-      - joje vis dar vyksta mokslai, visada norėjau studijuoti būtent ten, kur
-      plūsta būsimieji rabinai iš viso pasaulio.
+      Then Aaron speaks up, white as a sheet. Telshe Yeshiva, - he says, - is
+      still open, I always wanted to study in the place where all the future
+      rabbis from all over the world come to learn.
     </p>
   </Card>
 </div>

@@ -46,27 +46,29 @@
   <Card
     class="w-100 bg-primary-300 relative mt-20 mb-28 float-right z-5 sm:w-full sm:max-w-screen-sm sm:mt-10 sm:float-none"
   >
-    <p>Ji ką tik parašė dar vieną tanką:</p>
+    <p>She just wrote another tanka:</p>
     <p class="mt-8">
-      To je mi nio je<br />
-      Gar siai mel džian čioj vi zų<br />
-      Ma žas vai ku tis<br />
-      a ša rom iš si te pęs<br />
-      Tė vo ran ką sus pau <Explanation
-        variant="pink"
-        class="border-pink border-b-4"
-      >
+      In that crowd be low
+      <br />
+      Loud ly beg ging for vi sas
+      <br />
+      A child, lit tle boy,
+      <br />
+      His face smudged with run ning tears,
+      <br />
+      Holds on to his fa ther’s
+      <Explanation variant="pink" class="border-pink border-b-4">
         <div slot="content" class="w-full">
-          <p class="p-6">Tikras Jukiko Sugihara eilėraštis</p>
+          <p class="p-6">A real poem by Yukiko Sugihara</p>
         </div>
-        <span slot="text">džia</span>
+        <span slot="text">hand</span>
       </Explanation>
     </p>
     <ChapterLink
-      href={chapterLinks.chapter5}
+      href={`${chapterLinks.chapter5}`}
       class="mt-12 bg-primary w-full text-primary"
     >
-      Kitas skyrius
+      NEXT CHAPTER
     </ChapterLink>
   </Card>
 </div>

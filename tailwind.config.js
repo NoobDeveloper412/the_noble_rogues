@@ -8,6 +8,16 @@ module.exports = {
     },
   },
   theme: {
+    transitionDelay: {
+      '0': '0ms',
+      '2000': '2000ms',
+      '3000': '3000ms',
+      '3500': '3500ms',
+      '4000': '4000ms',
+      '4500': '45000ms',
+      '5000': '50000ms',
+      '16000': '16000ms',
+    },
     colors: {
       white: {
         default: "#FFFFFF",
@@ -44,6 +54,27 @@ module.exports = {
       grayscale: {
         default: "#636168",
         700: "#35363F",
+      },
+      ch6: {
+        default: "#B78B80"
+      },
+      ch7: {
+        default : '#E0A473'
+      },
+      ch8: {
+        default: "#A1C4BD"
+      },
+      ch9: {
+        default: "#7291B2"
+      },
+      ch10: {
+        default: "#A8A878"
+      },
+      ch11: {
+        default: "#B9B4A7"
+      },
+      ch12: {
+        default: "#E57373"
       },
       transparent: "transparent",
     },
@@ -121,6 +152,7 @@ module.exports = {
         "1/2": "50%",
         "3/5": "60%",
         "4/5": "80%",
+        "1/7": "75%",
         m: "500px",
         l: "600px",
         xl: "705px",
@@ -217,10 +249,13 @@ module.exports = {
         default: "8px 8px 20px rgba(99, 97, 104, 0.5)",
       },
       animation: {
+        hideMe:
+          "cssAnimation 5s forwards",     
         scaleIn:
           "scale-in-bl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
         scaleInCenter:
           "scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+        upDown: "up-down 1s linear infinite",
         vibrate: "vibrate 2s linear infinite both",
         fastVibrate: "vibrate 0.3s linear infinite both",
         focusInContractBck:
@@ -231,9 +266,12 @@ module.exports = {
           "slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both",
         slideInBlurredBottom:
           "slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both",
+        slideOutBlurredLeft:
+          "slide-out-blurred-left 1s cubic-bezier(0.755, 0.050, 0.855, 0.060) both",
         slideOutBlurredRight:
           "slide-out-blurred-right 1s cubic-bezier(0.755, 0.050, 0.855, 0.060) both",
         slideInBlurredLeft: "slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both",
+        slideInBlurredRight: "slide-in-blurred-right 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both",
         slideInBottom:
           "slide-in-bottom 0.75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
         slideInTop:
@@ -245,6 +283,7 @@ module.exports = {
         shrinkDown: "shrink-down 0.75s ease-in-out both",
         fadeIn: "fade-in 0.75s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
         fadeOut: "fade-out 0.75s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
+        fadeOutFast: "fade-out 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
         fadeInSlow:
           "fade-in 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
         fadeOutSlow:
@@ -252,9 +291,16 @@ module.exports = {
         textFlickerInGlow: "text-flicker-in-glow 2s linear both",
         scaleUp: "scale-up 1s ease-in-out both",
         scaleDown: "scale-down 0.75s ease-in-out both",
-        pulse: "pulse 3s ease infinite"
+        pulse: "pulse 3s ease infinite",
+        pulseforward: "pulse 3s ease 1",
+        pulseReverse: "pulse-reverse 3s ease 1"
       },
       keyframes: {
+        "cssAnimation":{
+          "0%":   {opacity: "1"},
+          "90%":  {opacity: "1"},
+          "100%": {opacity: "0"},
+        },
         "scale-in-bl": {
           "0%,100%": { transformOrigin: "0% 100%" },
           "0%": { transform: "scale(0)" },
@@ -269,6 +315,14 @@ module.exports = {
             transform: "scale(1)",
             opacity: "1",
           },
+        },
+        "up-down" :{
+          "0%": { transform: "translate(0) " },
+          "20%": { transform: "translate(0px, -3px)" },
+          "40%": { transform: "translate(0px, -1.5px)" },
+          "60%": { transform: "translate(0px, 1.5px)" },
+          "80%": { transform: "translate(0px, 3px)" },
+          "100%": { transform: "translate(0)" },
         },
         vibrate: {
           "0%": { transform: "translate(0) " },
@@ -338,6 +392,20 @@ module.exports = {
             opacity: "1",
           },
         },
+        "slide-out-blurred-left": {
+          "0%": {
+            transform: "translateX(0) scaleY(1) scaleX(1)",
+            transformOrigin: "50% 50%",
+            filter: "blur(0)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateX(-1000px) scaleX(2) scaleY(0.2)",
+            transformOrigin: "0% 50%",
+            filter: "blur(40px)",
+            opacity: "0",
+          },
+        },
         "slide-out-blurred-right": {
           "0%": {
             transform: "translateX(0) scaleY(1) scaleX(1)",
@@ -355,6 +423,20 @@ module.exports = {
         "slide-in-blurred-left": {
           "0%": {
             transform: "translateX(-1000px) scaleX(2.5) scaleY(0.2)",
+            transformOrigin: "100% 50%",
+            filter: "blur(40px)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateX(0) scaleY(1) scaleX(1)",
+            transformOrigin: "50% 50%",
+            filter: "blur(0)",
+            opacity: "1",
+          }
+        },
+        "slide-in-blurred-right": {
+          "0%": {
+            transform: "translateX(1000px) scaleX(2.5) scaleY(0.2)",
             transformOrigin: "100% 50%",
             filter: "blur(40px)",
             opacity: "0",
@@ -480,7 +562,7 @@ module.exports = {
           },
           "20.1%": {
             opacity: "1",
-            textShadow: "0 0 30px rgba(255, 255, 255, 0.25)",
+            textShadow: "0 0 10px rgba(255, 255, 255, 0.25)",
           },
           "20.6%": {
             opacity: "0",
@@ -493,12 +575,12 @@ module.exports = {
           "30.1%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)",
+              "0 0 10px rgba(255, 255, 255, 0.45), 0 0 20px rgba(255, 255, 255, 0.25)",
           },
           "30.5%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)",
+              "0 0 10px rgba(255, 255, 255, 0.45), 0 0 20px rgba(255, 255, 255, 0.25)",
           },
           "30.6%": {
             opacity: "0",
@@ -511,17 +593,17 @@ module.exports = {
           "45.1%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)",
+              "0 0 10px rgba(255, 255, 255, 0.45), 0 0 20px rgba(255, 255, 255, 0.25)",
           },
           "50%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)",
+              "0 0 10px rgba(255, 255, 255, 0.45), 0 0 20px rgba(255, 255, 255, 0.25)",
           },
           "55%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)",
+              "0 0 10px rgba(255, 255, 255, 0.45), 0 0 20px rgba(255, 255, 255, 0.25)",
           },
           "55.1%": {
             opacity: "0",
@@ -534,12 +616,12 @@ module.exports = {
           "57.1%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35)",
+              "0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.35)",
           },
           "60%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35)",
+              "0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.35)",
           },
           "60.1%": {
             opacity: "0",
@@ -552,12 +634,12 @@ module.exports = {
           "65.1%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1)",
+              "0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.35), 0 0 35px rgba(255, 255, 255, 0.1)",
           },
           "75%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1)",
+              "0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.35), 0 0 35px rgba(255, 255, 255, 0.1)",
           },
           "75.1%": {
             opacity: "0",
@@ -570,12 +652,12 @@ module.exports = {
           "77.1%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1)",
+              "0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2), 0 0 35px rgba(255, 255, 255, 0.1)",
           },
           "85%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1)",
+              "0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2), 0 0 35px rgba(255, 255, 255, 0.1)",
           },
           "85.1%": {
             opacity: "0",
@@ -588,12 +670,12 @@ module.exports = {
           "86.1%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1)",
+              "0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.45), 0 0 50px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 255, 255, 0.1)",
           },
           "100%": {
             opacity: "1",
             textShadow:
-              "0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1)",
+              "0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.45), 0 0 50px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 255, 255, 0.1)",
           },
         },
         "pulse": {
@@ -605,7 +687,17 @@ module.exports = {
             transform: "scale(3)",
             opacity: 0,
           }
-        }
+        },
+        "pulse-reverse": {
+            "0%": {
+              transform: "scale(3)",
+              opacity: 0,
+            },
+            "100%": {
+              transform: "scale(1)",
+              opacity: 1,
+            }
+          }
       },
       transitionProperty: {
         "max-width": "max-width",

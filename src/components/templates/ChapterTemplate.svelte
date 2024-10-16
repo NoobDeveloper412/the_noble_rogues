@@ -5,7 +5,7 @@
 </script>
 
 <div class="chapter min-h-screen {$$props.class || ''}" out:fade>
-  <ChapterMenu links={menuLinks} chapterHeader="Gyvenimo vizos" />
+  <ChapterMenu links={menuLinks} chapterHeader="Noble Rogues" />
   <div
     class="card-container relative ml-28 sm:ml-0 sm:pt-120"
     out:fade

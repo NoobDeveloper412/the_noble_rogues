@@ -1,8 +1,8 @@
 <script>
   import { Card } from "atoms";
-  import { ChapterItem } from "molecules";
   import building3Src from "images/Chapter2/building3.png";
   import wireSrc from "images/Chapter2/wire.png";
+  import { ChapterItem } from "molecules";
   import { elementInViewport, handleTriggerClasses } from "utils";
 
   export let activeTrigger, nextTrigger;
@@ -13,7 +13,7 @@
     triggerClass = handleTriggerClasses(
       activeTrigger,
       nextTrigger,
-      "animate-fadeIn",
+      "animate-scaleDown",
       "animate-fadeOut"
     );
     wireClass = handleTriggerClasses(
@@ -36,28 +36,28 @@
   <div slot="story" class="pt-16">
     <Card class="bg-primary mb-24">
       <p class="mb-6">
-        1942 rugpjūčio pabaigoje paskelbta, kad iš geto bus išgelbėjami visi
-        vaikai, mažesni nei dešimties metų. Į getą suvažiavo sunkvežimiai, į
-        juos ėmė varyti ligonius, senukus, visus, kurie negali dirbti, taigi ir
-        vaikus. Toliką tėtis greitai patraukė šonan ir paslėpė palėpėje virš
-        kambarėlio. Pasodino jį ant čiužinio, prisakė, kad ant čiužinio jis gali
-        gulėti, stovėti, sėdėti, bet jokiu būdu nuo jo nenulipti.
+        In late August 1942, it was announced that all children under the age of
+        ten would be rescued from the Ghetto. Trucks drove in, and the sick, the
+        elderly, everyone who could not work - children as well - were to be put
+        into them. Dad quickly pulled Tolik aside and hid him in the attic above
+        our room. He put the boy on the mattress and strictly said that he could
+        lie, stand or sit on the mattress, but never get off it.
       </p>
       <p bind:this={triggerPoint}>
-        Naktimis mama su tėčiu jam atnešdavo kąsnelį duonos, vandens, išnešdavo
-        prisisiotą kibirą. Taip, beveik nejudėdamas, broliukas išbuvo mėnesį, po
-        to jam buvo leista nulipti žemyn: tėtis jam gavo dokumentus su įrašu,
-        kad yra dešimties ir gali su manimi dirbti gamykloje, tai reiškė dar
-        vieną maisto kortelę.
+        At night, Mom and Dad brought him a bit of bread, some water, and took
+        out the piss bucket. This way, almost motionless, my little brother
+        stayed for a whole month, after which he was allowed to climb down: Dad
+        got fake documents with the entry that Tolik is already ten years old
+        and can work with me in the factory, which meant another food card.
       </p>
     </Card>
     <Card class="bg-primary sm:mt-120">
       <p class="mb-6">
-        1944 rugpjūtį mūsų Getą likvidavo. Tai reiškia, kad likusius gyvus
-        žmones išvežė į Auschwitz-Birkenau, vis dar veikiančią koncentracijos
-        stovyklą.
+        In August 1944, the Ghetto was liquidated. This means that the remaining
+        living people were taken to Auschwitz-Birkenau, a still operating
+        concentration camp.
       </p>
-      <p class="tracking-3 mb-6">Į MIRTĮ.</p>
+      <p class="tracking-3 mb-6">TO DEATH.</p>
       <p class="bg-primary-300 w-3 h-3 border-none rounded-lg" />
     </Card>
   </div>

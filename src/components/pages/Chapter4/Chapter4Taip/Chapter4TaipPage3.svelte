@@ -50,39 +50,45 @@
   </div>
   <Card class="card float-right sm:float-none">
     <p>
-      Ką veikiau Suomijoje? Lankiau prancūzų ir vokiečių kalbos pamokas. Taip
-      pat mokiausi etiketo ir šokių. Be šitų įgūdžių nebūčiau galėjusi būti gera
-      diplomato žmona, mat kasdien jei ne patys kviesdavomės svečius, tai
-      <span bind:this={triggerPoint1}>būdavom</span> kviečiami: vis pietūs, vakarienės,
-      popiečio arbatėlės. Prieš vakarienę diplomatai diskutuodavo, po vakarienės
-      vykdavo šokiai. Su atsivežtais kimono iš visų išsiskirdavau, moterys be ceremonijų
-      čiupinėdavo šilką, iš nuostabos aikčiodamos, tačiau šokių aikštelėje kimono
-      buvo labai nepatogus, tad turėjau pirktis europietiškų suknelių, tam diplomatų
-      žmonoms buvo skiriamos reprezentacinės lėšos. Parduotuvėse sulaukdavau gluminančių
-      klausimų: „jūs kinė? Ak, japonė? Tai kodėl jūsų oda visai ne geltona?“. Vėl
-      pradėjau rašyti.
+      What did I do in Finland? I attended French and German classes. I also
+      learned some etiquette and dancing. Without these skills, I wouldn’t have
+      been able to be a proper wife of a diplomat, because every day, if we
+      didn’t invite guests to our house, we <span bind:this={triggerPoint1}
+        >would be invited</span
+      > somewhere ourselves: for lunch, dinner, afternoon tea. Before dinner, diplomats
+      discussed politics, and after dinner, dances took place. With the kimono I
+      brought from Japan, I easily stood out from the crowd. Other ladies loved to
+      touch the silk, sighing in disbelief, but the kimono was very awkward on the
+      dance floor, so I had to buy some European dresses - the diplomats’ wives were
+      given special funds for that. When I went shopping, I received many confusing
+      questions: “Are you Chinese? Oh, Japanese? So why is your skin not yellow at
+      all?” I started writing again.
     </p>
     <p class="mt-8">
-      Suk ne lė je aš<br />
-      vi o le ti nis šil kas<br />
-      šį va kar ly džiu<br />
-      sa vo vy rą į ba lių<br />
-      Šve di jos am ba sa
+      In this flow ing gown
+      <br />
+      Of lu mi nous pur ple silk
+      <br />
+      I ac com pa ny
+      <br />
+      My hus band to the par ty
+      <br />
+      At the Swe dish Em bas
       <Explanation variant="pink" class="border-pink border-b-4">
         <div slot="content" class="w-full">
           <p class="p-6">
-            Tikras Jukiko eilėraštis. Tanką rašant svarbu penkios eilutės,
-            kiekvienoje po 5-7-5-7-7 skiemenis
+            A real poem by Yukiko. When writing a tanka, you must have five
+            lines, each containing 5-7-5-7-7 syllables.
           </p>
         </div>
-        <span slot="text">don</span>
+        <span slot="text">sy</span>
       </Explanation>
     </p>
     <p class="mt-8">
-      Po metų gimė mūsų antrasis <span bind:this={triggerPoint2}>sūnus</span>,
-      Čijakis. Dar po metų mano vyras gavo įsakymą vykti į Lietuvą ir Kaune
-      atidaryti Japonijos konsulatą. Vos spėjome išvažiuoti, kai gruodį ant
-      Helsinkio pasipylė Sovietų bombos.
+      A year later, our second <span bind:this={triggerPoint2}>son</span>,
+      Chiaki, was born. Next year, my husband received an order to go to
+      Lithuania and open a Japanese consulate in Kaunas. In December, just after
+      we left, the Soviet bombs began to drop on Helsinki.
     </p>
   </Card>
 </div>

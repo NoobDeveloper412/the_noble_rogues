@@ -17,21 +17,22 @@
 <div class="chapter-item container flow-root sm:flex">
   <Card class="card mb-28 float-right sm:float-none">
     <p bind:this={triggerPoint}>
-      Mama išsitraukia berlynietės draugės laišką ir šimtąjį kartą piktai tėčiui
-      perskaito „visą savaitę keliavome iki Prancūzijos sienos, kelias naktis
-      laukėme vedlio per sieną“ - tiek dienų ir naktų ji savo senos motinos,
-      mūsų močiutės, tikrai niekur nekratys.
+      Mom finds a letter from her Berlin friend and angrily reads it to Dad for
+      the hundredth time. "We traveled to the French border all week, we waited
+      for our guide across the border for a few nights" - no way she would
+      torture her old mother, our grandmother, for so many days and nights.
     </p>
     <p class="mt-6">
-      Mums lieka, mums belieka, kas mums tebelieka? Vieną vakarą tėtis grįžta iš
-      miesto ir sako radęs išeitį. Yra miestas, į kurį priima be vizų.
+      What’s left, what else is left, what is still left to us? One night Dad
+      returns from downtown and says he has found a way out. There is one city
+      that accepts you without any visa.
     </p>
-    <p class="uppercase mt-6 tracking-3">Šanchajus.</p>
+    <p class="uppercase mt-6 tracking-3">Shanghai.</p>
     <ChapterLink
-      href={chapterLinks.chapter3}
+      href={`${chapterLinks.chapter3}`}
       class="mt-12 bg-primary w-full text-primary"
     >
-      Kitas skyrius
+      Next Chapter
     </ChapterLink>
   </Card>
 </div>

@@ -17,31 +17,31 @@
     />
   </div>
   <Card class="card dark last float-right sm:float-none">
-    <h2 class="c-h2 mb-8">Ne</h2>
+    <h2 class="c-h2 mb-8">No</h2>
     <p>
-      Man dvidešimt vieneri. Jam – trisdešimt penkeri. Aš niekada nesvajojau
-      ištekėti, įsivaizdavau, kad esu moderni, meniškos prigimties mergina.
-      Bloga buvo vien nuo minties apie <Explanation
+      I'm 21. He is 35. I never dreamed of getting married, I imagined myself a
+      modern, artistic girl. I felt sick just thinking about an <Explanation
         variant="gray"
         background="dark"
         class="border-grayscale border-b-4"
       >
         <div slot="content" class="w-full">
           <p class="p-6">
-            Sutartinė santuoka, kai besituokiančiųjų tėvai nusprendžia, kas bus
-            vyras ir žmona, neklausiant jokios jaunųjų nuomonės. Pasakojamais
-            laikais tai buvo beveik be išimčių įprasta praktika.
+            Contractual marriage means that the parents of the couple decide who
+            will be the husband and wife, without asking their own opinion. At
+            the time of the story, this was a common practice almost without
+            exception.
           </p>
         </div>
-        <span slot="text">sutartinę</span>
-      </Explanation> santuoką. Norėjau meilės istorijos, tokios, kokia nutiko mano
-      mamai ir tėčiui, kai jie įsimylėjo žaisdami tenisą. Šis vyras jau buvo vedęs.
-      Jis ką tik išsiskyręs.
+        <span slot="text">contractual</span>
+      </Explanation> marriage. I wanted a real love story, just like the one that
+      happened between my mother and father when they fell in love while playing
+      tennis. This man had already been married. He was recently divorced.
     </p>
     <p class="mt-8">
-      Ir aš nesutinku tekėti, atmetu jo pasiūlymą. Čiunė pas mus nebesilanko.
-      Toliau gaminu pusryčius ir vakarienes savo broliui. Artėja karas. Mano
-      eilėraščiai vis liūdnesni.
+      And so I don’t agree to marry, I reject his offer. Chiune doesn’t visit us
+      anymore. I continue to prepare breakfast and dinner for my brother. War is
+      approaching. My poems are becoming sadder and sadder.
     </p>
     <p class="mt-8 bg-primary-300 w-3 h-3 border-none rounded-lg" />
   </Card>

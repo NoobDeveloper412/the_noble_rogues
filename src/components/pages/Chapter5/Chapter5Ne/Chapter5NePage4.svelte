@@ -27,18 +27,18 @@
   </div>
   <Card class="card mb-28 float-right sm:float-none">
     <p bind:this={triggerPoint}>
-      Be to... paukštelis pačiulbėjo, vis daugiau paukštelių vis garsiau čiulba,
-      kad jei pasieksime Vilnių, nereikės pavojingai kirsti sienos, o Vilnius
-      tuoj bus grąžintas Lietuvai, tada mes lyg niekur nieko atsidurtume
-      Lietuvoje – ne mes sieną, o siena mus peršoktų, - taip kalba vis labiau
-      gražbyliaudamas Aronas, kalba vis labiau karščiuodamasis ir tas karštis
-      pagaliau atšildo suledėjusį tėčio žvilgsnį.
+      And besides… the little bird has chirped, more and more birds chirp louder
+      and louder that if we reach Vilnius, we won’t have to cross the border, as
+      Vilnius will soon be returned and we will suddenly find ourselves in
+      Lithuania - the border will jump over us, not we over the border - Aaron
+      speaks more and more hastily, more and more feverishly, and that heat
+      finally thaws Dad’s frozen gaze.
     </p>
     <ChapterLink
-      href={chapterLinks.chapter6}
+      href={`${chapterLinks.chapter6}`}
       class="mt-12 bg-primary w-full text-primary"
     >
-      Kitas skyrius
+      Next Chapter
     </ChapterLink>
   </Card>
 </div>

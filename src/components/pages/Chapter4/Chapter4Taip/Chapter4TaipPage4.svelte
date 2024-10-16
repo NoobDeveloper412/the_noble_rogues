@@ -46,23 +46,23 @@
       class="absolute bottom-0 left-0 right-0 mx-auto opacity-0 {familyTrigger}"
     />
   </div>
-  <Card class="card float-right sm:float-none">
+ <Card class="card float-right sm:float-none">
     <p>
-      Miegi, katine? - pusę gyvenimo tau baigiu išpasakoti, o tu miegi. Visa
-      kita žinai: apsigyvenome name ant kalno, nuo kurio matosi visas Kaunas.
-      Savaitgaliais važinėjame apžiūrinėdami Lietuvą, ypač jos pajūrį. Sode
-      pasodinau porą obelų, susilaukėme trečio sūnaus Harukio, štai jis jau
-      pabudo ir knirkčioja vežimėly.
+      Cat, are you asleep? - I'm telling half of my life to you, and you’re
+      asleep. You know the rest: we moved to this house on a hill, from which
+      you can see the whole of Kaunas. On weekends, we travel to explore
+      Lithuania, especially the seaside. I planted a couple of apple trees in
+      the garden, and our third son, Haruki, was born - look, he’s already awake
+      and crying in his pram.
     </p>
     <p class="mt-8">
-      Lietus liovėsi ir Setsuko naujagimį vežtų į kiemą, bet lauke, įprastai
-      tokioje tuščioje ir ramioje gatvelėje, nuo pat ryto stumdosi žmonės.
+      The rain has stopped and Setsuko would take the baby to the yard, but
+      outside, in our usually empty and quiet street, people have been gathering
+      since the morning.
     </p>
     <p class="mt-8">
-      Rodydamas, kad nemiegojau, o klausiausi, - pasikasau ausį, pasirąžau ir
-      nuo palangės strykteliu ant stalo, o <span bind:this={triggerPoint}
-        >tada</span
-      > nusliuogiu Jukiko ant kelių. Jukiko atrodo pavargusi, sunerimusi ir… išsigandusi.
+      To show that I was not sleeping, but listening, I scratch my ear, stretch
+      and jump from the windowsill on the table, then <span bind:this={triggerPoint}>slip</span> into Yukiko’s lap. Yukiko looks tired, anxious and… scared.
     </p>
   </Card>
 </div>

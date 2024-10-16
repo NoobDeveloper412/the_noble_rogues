@@ -1,6 +1,13 @@
 <script>
-  import { onMount } from "svelte";
   import { MenuLink } from "molecules";
+import { onMount } from "svelte";
+
+
+
+
+
+
+
 
   export let links = [];
   export let chapterHeader;
@@ -49,7 +56,7 @@
     @apply bg-primary text-primary-300 flex fixed bottom-0 ml-6 pl-12 pr-8 py-6 w-112;
 
     &:hover {
-      @apply z-50;
+      z-index: 99999;;
     }
   }
   .chapter-header {
@@ -65,7 +72,12 @@
     }
 
     .menu-expanded .chapter-menu {
-      @apply max-w-xs -mr-6 pl-6 z-50 opacity-100;
+      @apply max-w-xs -mr-6 pl-6 opacity-100;
+      z-index:9999;
     }
   }
+   .chapter-menu a.menu-link:nth-child(13), 
+  .chapter-menu a.menu-link:nth-child(14) {
+    display: none;
+}
 </style>

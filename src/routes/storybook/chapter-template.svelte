@@ -83,7 +83,7 @@
     slot="illustration"
     class="w-full relative flex justify-center items-center"
   >
-    <img class="object-contain 2xl:w-4/6" src={spySRC} />
+    <img alt="" class="object-contain 2xl:w-4/6" src={spySRC} />
   </div>
 </ChapterItem>
 
@@ -124,7 +124,7 @@
     slot="illustration"
     class="w-full relative flex justify-center items-center"
   >
-    <img class="object-contain  mt-48 2xl:w-4/6 " src={desk} />
-    <img class="absolute left-1/2 top-1/2" src={orange} />
+    <img alt="" class="object-contain  mt-48 2xl:w-4/6 " src={desk} />
+    <img alt="" class="absolute left-1/2 top-1/2" src={orange} />
   </div>
 </ChapterItem>
