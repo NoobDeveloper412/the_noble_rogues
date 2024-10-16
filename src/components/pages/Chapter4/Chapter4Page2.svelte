@@ -32,7 +32,7 @@
         <p class="p-6">A thirty-one-syllable poem</p>
       </div>
       <span slot="text">tankas</span>
-    </Explanation>,I wanted to become a famous poet. Or an artist! Or to go to
+    </Explanation>, I wanted to become a famous poet. Or an artist! Or to go to
     Paris and open my own beauty salon there. I had so many bold dreams - I must
     have inherited it from my mother: as soon as dainty wrist watches appeared
     in Japan, she was the first of all women to buy one for herself; when

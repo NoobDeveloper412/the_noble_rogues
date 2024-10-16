@@ -63,7 +63,7 @@
 
   <ChoicesScreen
     header="Will the cat meow?"
-    class="relative h-120 p-10 sm:p-4 z-10"
+    class="relative h-120 p-10 sm:p-4 z-10 mt-20"
     choice1={{ href: "", text: "yes" }}
     choice2={{ href: `${chapterLinks.chapter3}/no`, text: "no" }}
   />

@@ -18,7 +18,7 @@
 </script>
 
 <svelte:head>
-  <title>Į kaimą</title>
+  <title>To the countryside</title>
 </svelte:head>
 
 <div class="absolute w-full bg-ch10" out:fade in:fade>

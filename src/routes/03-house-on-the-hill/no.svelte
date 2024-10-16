@@ -92,7 +92,7 @@
           about the sparrows, about the sun which is not so warm anymore, about
           Mrs. Yukiko, in whose lap I loved to lay down, but these days I don't
           fit there anymore, about the maid, always trotting around like a cat,
-          until I get dizzy from the warmth and fall asleep
+          until I get dizzy from the warmth and fall asleep.
         </p>
         <ChapterLink href={chapterLinks.chapter4} class="mt-12 w-full">
           NEXT CHAPTER

@@ -75,7 +75,7 @@
         At night I hear beeping noises coming out of this room, I used to
         suspect the birds, but there are no birds around: only some radios,
         telegraph handles, headphones, a thing that looks like a typewriter,
-        only full of wires, also some plugs and stinky hot light bulbs
+        only full of wires, also some plugs and stinky hot light bulbs.
       </p>
     </Card>
   </Container>

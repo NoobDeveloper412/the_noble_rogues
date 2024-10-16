@@ -34,7 +34,7 @@
       to the island of Curaçao, but there is nothing on that island to see. A
       lighthouse and... some rocks? Several small cottages and a Governor who
       certainly won’t give his permission to settle for the newcomers arriving
-      without a penny in their pockets
+      without a penny in their pockets.
       <br /><br />
       Besides, the Soviets have already taken power in Lithuania and told all the
       embassies and consulates to close and all the foreigners to leave the country

@@ -81,7 +81,7 @@
           <span slot="text" class="border-b-4 border-green">
             the doors open inwards.</span
           >
-        </Explanation>This must be for the sake of the cats, because when a cat
+        </Explanation> This must be for the sake of the cats, because when a cat
         waits at the door and the door opens inwards, you won’t hurt it even by
         accident.
       </p>
