@@ -68,7 +68,7 @@
 </script>
 
 <svelte:head>
-  <title>The Noble Rogue</title>
+  <title>Noble Rogues</title>
 </svelte:head>
 
 <div

@@ -30,7 +30,7 @@
     <Card>
       <h2 class="c-h2 mb-8">About the project</h2>
       <p class="mb-8">
-        “The Noble Rogue” is an interactive story about the feats of Japanese
+        The “Noble Rogues” is an interactive story about the feats of Japanese
         consul Chiune Sugihara and Dutch diplomat Jan Zwartendijk while rescuing
         Jews in pre-war Kaunas.
       </p>
