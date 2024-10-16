@@ -25,7 +25,7 @@ export const chapterTitles = {
   chapter5: "Fugitives",
   chapter6: "Mister Radio",
   chapter7: "A very Noisy morning",
-  chapter8: "Goodbye Kaunas",
+  chapter8: "Goodbye to Kaunas",
   chapter9: "Counterfiets and Copies",
   chapter10: "To the countryside",
   chapter11: "Whose children",

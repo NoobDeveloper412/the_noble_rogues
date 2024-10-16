@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-  <title>Namai ant kalno</title>
+  <title>House on the hill</title>
 </svelte:head>
 
 <div class="absolute w-full bg-green" out:fade in:fade>
