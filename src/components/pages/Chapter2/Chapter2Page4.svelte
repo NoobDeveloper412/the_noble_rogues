@@ -65,7 +65,7 @@
     line-height: 3.75rem;
   }
 
-  .index-dev{
+  .index-dec{
     z-index: -13;
   }
 
