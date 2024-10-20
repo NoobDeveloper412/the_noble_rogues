@@ -27,7 +27,7 @@
 
 <svelte:window on:scroll={setActiveTrigger} />
 
-<div class="chapter-item relative flex sm:flex-col">
+<div class="chapter-item relative flex sm:flex-col index-dec">
   <Card
     class="w-max h-max max-w-md mt-20 bg-primary-300 sm:mt-10 sm:mb-80 sm:w-full sm:max-w-screen-sm"
   >
@@ -40,10 +40,10 @@
       <img
         src={speechBubbleSrc}
         alt=""
-        class="absolute h-xl w-screen left-0 -ml-28 sm:right-0 sm:mx-auto sm:object-cover"
+        class="absolute h-xl w-screen left-0 -ml-28 lg:-ml-28 sm:right-0 sm:mx-auto sm:object-cover"
       />
       <h2
-        class="c-h2 absolute w-3/5 z-1 text-primary-300 h-xl flex items-center sm:w-screen sm:text-3xl sm:pr-32 sm:leading-10 sm:items-start sm:mt-40 {textTrigger}"
+        class="c-flicker absolute w-3/5 z-1 text-primary-300 h-xl flex items-center sm:w-screen sm:text-xl sm:pr-32 sm:leading-10 sm:items-start sm:mt-40 {textTrigger} "
       >
         “you disgusting Jew, you stink and pollute our air, what are you doing
         here among normal people, get out of our city, go to your own country"
@@ -56,3 +56,28 @@
     </p>
   </Card>
 </div>
+
+<style>
+  .c-flicker {
+    font-weight: 900;
+    font-family: Grafier, serif;
+    font-size: 2.4rem;
+    line-height: 3.75rem;
+  }
+
+  .index-dev{
+    z-index: -13;
+  }
+
+  @media (min-width: 1280px) {
+    .c-flicker {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .c-flicker {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+  }
+</style>

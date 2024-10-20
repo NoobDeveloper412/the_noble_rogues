@@ -37,13 +37,13 @@
 
 <svelte:window on:scroll={setActiveTrigger} />
 
-<div class="chapter-item relative flex sm:flex-col">
+<div class="chapter-item relative flex sm:flex-col ">
   <div
     class="ch-2over image-container h-screen w-1/2 fixed top-0 right-1/20 overflow-hidden min-w-md sm:w-full sm:min-w-sm opacity-0 {triggerClass}"
   >
     <GroupImage images={familyImages} />
   </div>
-  <Card class="card">
+  <Card class="card index-dec">
     <p bind:this={triggerPoint}>
       A family as any other. If you asked me about Aaron, my older brother, I
       would first say that he is in love with Eliza, the bookshop girl, and only
@@ -67,6 +67,9 @@
 <style global lang="postcss">
   .ch-2over {
     overflow: visible;
+  }
+  .index-dec{
+    z-index: -13!important;
   }
   @screen sm {
     .ch-2over {
